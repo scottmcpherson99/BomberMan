@@ -1034,3 +1034,438 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.15-14.31.08:030][357]AssetReimport: Importing new asset /Game/Textures/BreakableWall.
 [2021.12.15-14.31.08:030][357]AssetReimport: Importing new asset /Game/Textures/Floor.
 [2021.12.15-14.31.08:030][357]AssetReimport: Importing new asset /Game/Textures/SolidWall.
+[2021.12.15-14.32.04:862][653]LogActor: Warning: BP_SolidWall_C /Engine/Transient.World_1:PersistentLevel.BP_SolidWall_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.12.15-14.32.04:877][654]LogActor: Warning: BP_DestructableWall_C /Engine/Transient.World_2:PersistentLevel.BP_DestructableWall_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.12.15-14.32.06:148][741]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Walls/BP_DestructableWall.BP_DestructableWall
+[2021.12.15-14.32.06:470][741]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
+[2021.12.15-14.32.07:031][741]LogActor: Warning: BP_DestructableWall_C /Engine/Transient.World_3:PersistentLevel.BP_DestructableWall_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.12.15-14.32.25:943][536]LogSlate: Window 'BP_DestructableWall' being destroyed
+[2021.12.15-14.32.25:947][536]LogSlate: Window 'BP_DestructableWall' being destroyed
+[2021.12.15-14.32.25:962][536]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.32.25:962][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.32.35:160][444]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.12.15-14.32.35:177][444]LogContentBrowser: Creating deferred item: NewFolder
+[2021.12.15-14.32.42:225][275]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2021.12.15-14.32.42:225][275]LogContentBrowser: End creating deferred item NewFolder
+[2021.12.15-14.32.53:069][262]LogSlate: Window 'Color Picker' being destroyed
+[2021.12.15-14.32.55:988][520]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2021.12.15-14.32.55:995][520]LogContentBrowser: Creating deferred item: NewMaterial
+[2021.12.15-14.33.02:068][236]LogContentBrowser: Attempting asset rename: NewMaterial -> M_DestructableWall
+[2021.12.15-14.33.02:080][236]LogContentBrowser: End creating deferred item NewMaterial
+[2021.12.15-14.33.04:431][488]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_DestructableWall.M_DestructableWall
+[2021.12.15-14.33.04:433][488]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.04:688][488]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.33.04:704][488]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.33.04:704][488]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.15-14.33.05:425][521]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.12.15-14.33.05:425][521]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.12.15-14.33.05:425][521]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.12.15-14.33.05:425][521]MaterialEditorStats: Texture samplers: 2/16
+[2021.12.15-14.33.36:506][554]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.36:511][554]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.33.36:512][554]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.36:513][554]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_DestructableWall (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.12.15-14.33.36:513][554]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.12.15-14.33.36:522][554]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.33.36:525][554]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2021.12.15-14.33.41:966][ 33]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.33.41:975][ 33]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.33.41:976][ 33]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.33.41:983][ 33]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.42:038][ 34]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 13
+[2021.12.15-14.33.42:038][ 34]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 12
+[2021.12.15-14.33.42:038][ 34]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 11
+[2021.12.15-14.33.42:602][ 53]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2021.12.15-14.33.42:602][ 53]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2021.12.15-14.33.42:602][ 53]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.12.15-14.33.42:602][ 53]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2021.12.15-14.33.42:654][ 55]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 6
+[2021.12.15-14.33.42:678][ 56]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 5
+[2021.12.15-14.33.42:739][ 58]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2021.12.15-14.33.42:765][ 59]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.12.15-14.33.42:827][ 59]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 2
+[2021.12.15-14.33.42:827][ 59]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2021.12.15-14.33.43:315][ 84]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.33.43:315][ 84]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.33.43:315][ 84]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.33.43:315][ 84]MaterialEditorStats: Texture samplers: 3/16
+[2021.12.15-14.33.43:315][ 84]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.33.43:315][ 84]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.33.49:592][635]LogMaterialEditor: Saving and Compiling material M_DestructableWall
+[2021.12.15-14.33.49:976][635]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.33.49:991][635]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.33.50:014][635]LogMaterial: Display: Missing cached shader map for material M_DestructableWall, compiling. 
+[2021.12.15-14.33.50:027][635]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 12
+[2021.12.15-14.33.50:027][635]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2021.12.15-14.33.50:027][635]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 8
+[2021.12.15-14.33.50:044][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.12.15-14.33.50:053][635]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.15-14.33.50:589][635]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.12.15-14.33.50:589][635]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2021.12.15-14.33.50:589][635]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2021.12.15-14.33.50:589][635]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.12.15-14.33.50:589][635]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.12.15-14.33.50:716][635]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2021.12.15-14.33.50:716][635]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.12.15-14.33.50:716][635]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.12.15-14.33.50:722][635]TextureStreamingBuild: Display: Compiling optional shaders took 0.674 seconds.
+[2021.12.15-14.33.50:755][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.12.15-14.33.51:091][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_DestructableWall" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_DestructableWall.uasset" SILENT=true
+[2021.12.15-14.33.51:095][635]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/M_DestructableWall1FA3BD4246DE5BE00D0F19A9A015BCA7.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_DestructableWall.uasset'
+[2021.12.15-14.33.51:102][635]AssetCheck: New page: Asset Save: M_DestructableWall
+[2021.12.15-14.33.51:102][635]LogContentValidation: Display: Validating Material /Game/Materials/M_DestructableWall.M_DestructableWall
+[2021.12.15-14.33.51:103][635]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.33.51:103][635]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.33.51:103][635]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.33.51:103][635]MaterialEditorStats: Texture samplers: 4/16
+[2021.12.15-14.33.51:103][635]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.33.51:103][635]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.33.52:681][781]LogSlate: Window 'M_DestructableWall' being destroyed
+[2021.12.15-14.33.52:685][781]LogSlate: Window 'M_DestructableWall' being destroyed
+[2021.12.15-14.33.52:708][781]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.33.52:708][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.33.56:577][185]LogContentBrowser: Deferred new asset file creation: M_DestructableWall1
+[2021.12.15-14.33.56:583][185]LogContentBrowser: Creating deferred item: M_DestructableWall1
+[2021.12.15-14.34.05:420][113]LogContentBrowser: Attempting asset rename: M_DestructableWall1 -> M_SolidWall
+[2021.12.15-14.34.05:433][113]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.05:438][113]LogContentBrowser: End creating deferred item M_DestructableWall1
+[2021.12.15-14.34.05:447][115]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 12
+[2021.12.15-14.34.05:447][115]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.12.15-14.34.05:447][115]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.12.15-14.34.05:447][115]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.05:447][115]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2021.12.15-14.34.05:447][115]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2021.12.15-14.34.06:980][210]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_SolidWall.M_SolidWall
+[2021.12.15-14.34.06:981][210]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.07:085][210]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.07:089][210]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.34.07:098][210]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.34.07:100][210]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.34.07:127][210]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.12.15-14.34.07:127][210]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.12.15-14.34.07:127][210]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.12.15-14.34.07:573][224]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.12.15-14.34.07:787][234]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.34.07:787][234]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.34.07:787][234]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.34.07:787][234]MaterialEditorStats: Texture samplers: 3/16
+[2021.12.15-14.34.07:787][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.34.07:787][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.34.12:059][603]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.34.12:070][603]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.34.12:071][603]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.34.12:077][603]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.12:082][603]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.12.15-14.34.12:082][603]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.12.15-14.34.12:082][603]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.12.15-14.34.12:556][618]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2021.12.15-14.34.12:556][618]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2021.12.15-14.34.12:556][618]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.12.15-14.34.12:556][618]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2021.12.15-14.34.12:633][621]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2021.12.15-14.34.12:633][621]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2021.12.15-14.34.12:714][624]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2021.12.15-14.34.12:744][625]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.12.15-14.34.12:805][627]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.12.15-14.34.12:805][627]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.12.15-14.34.13:256][646]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.34.13:256][646]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.34.13:256][646]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.34.13:256][646]MaterialEditorStats: Texture samplers: 3/16
+[2021.12.15-14.34.13:256][646]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.34.13:256][646]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.34.14:066][714]LogMaterialEditor: Saving and Compiling material M_SolidWall
+[2021.12.15-14.34.14:452][714]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.34.14:476][714]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.34.14:479][714]LogMaterial: Display: Missing cached shader map for material M_SolidWall, compiling. 
+[2021.12.15-14.34.14:500][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2021.12.15-14.34.14:505][714]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.15-14.34.14:864][714]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 14
+[2021.12.15-14.34.14:864][714]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2021.12.15-14.34.14:864][714]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 12
+[2021.12.15-14.34.14:864][714]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 10
+[2021.12.15-14.34.14:864][714]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2021.12.15-14.34.14:866][714]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 8
+[2021.12.15-14.34.14:866][714]TextureStreamingBuild: Display: Compiling optional shaders took 0.364 seconds.
+[2021.12.15-14.34.14:886][714]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2021.12.15-14.34.14:886][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.12.15-14.34.15:447][714]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2021.12.15-14.34.15:447][714]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.12.15-14.34.15:447][714]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 4
+[2021.12.15-14.34.15:447][714]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.12.15-14.34.15:447][714]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2021.12.15-14.34.15:447][714]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2021.12.15-14.34.15:556][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_SolidWall" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_SolidWall.uasset" SILENT=true
+[2021.12.15-14.34.15:560][714]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/M_SolidWallF646E4404650DE41866336814E006E95.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_SolidWall.uasset'
+[2021.12.15-14.34.15:597][714]AssetCheck: New page: Asset Save: M_SolidWall
+[2021.12.15-14.34.15:597][714]LogContentValidation: Display: Validating Material /Game/Materials/M_SolidWall.M_SolidWall
+[2021.12.15-14.34.15:598][714]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.34.15:598][714]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.34.15:598][714]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.34.15:598][714]MaterialEditorStats: Texture samplers: 4/16
+[2021.12.15-14.34.15:598][714]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.34.15:598][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.34.16:694][816]LogSlate: Window 'M_SolidWall' being destroyed
+[2021.12.15-14.34.16:698][816]LogSlate: Window 'M_SolidWall' being destroyed
+[2021.12.15-14.34.16:707][816]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.34.16:707][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.34.18:057][971]LogContentBrowser: Deferred new asset file creation: M_SolidWall1
+[2021.12.15-14.34.18:063][971]LogContentBrowser: Creating deferred item: M_SolidWall1
+[2021.12.15-14.34.42:734][918]LogContentBrowser: Attempting asset rename: M_SolidWall1 -> M_Grass
+[2021.12.15-14.34.42:735][918]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.42:740][918]LogContentBrowser: End creating deferred item M_SolidWall1
+[2021.12.15-14.34.42:749][920]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 12
+[2021.12.15-14.34.42:749][920]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2021.12.15-14.34.42:749][920]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.12.15-14.34.42:749][920]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.42:749][920]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2021.12.15-14.34.42:749][920]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2021.12.15-14.34.45:780][151]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Grass.M_Grass
+[2021.12.15-14.34.45:780][151]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.45:885][151]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.45:889][151]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.45:899][151]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.34.45:903][151]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.34.45:962][151]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.12.15-14.34.45:962][151]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.12.15-14.34.45:962][151]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.12.15-14.34.46:325][165]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.12.15-14.34.46:658][181]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.34.46:659][181]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.34.46:659][181]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.34.46:659][181]MaterialEditorStats: Texture samplers: 3/16
+[2021.12.15-14.34.46:659][181]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.34.46:659][181]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.34.50:801][521]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.34.50:808][521]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.34.50:809][521]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.12.15-14.34.50:814][521]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.50:846][522]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 13
+[2021.12.15-14.34.50:846][522]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 12
+[2021.12.15-14.34.50:846][522]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 11
+[2021.12.15-14.34.51:275][535]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2021.12.15-14.34.51:276][535]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2021.12.15-14.34.51:307][536]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2021.12.15-14.34.51:307][536]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 7
+[2021.12.15-14.34.51:384][539]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2021.12.15-14.34.51:384][539]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 5
+[2021.12.15-14.34.51:411][540]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2021.12.15-14.34.51:483][542]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.12.15-14.34.51:532][544]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 2
+[2021.12.15-14.34.51:532][544]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1
+[2021.12.15-14.34.52:002][566]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.34.52:002][566]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.34.52:002][566]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.34.52:002][566]MaterialEditorStats: Texture samplers: 3/16
+[2021.12.15-14.34.52:002][566]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.34.52:002][566]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.34.52:494][611]LogMaterialEditor: Saving and Compiling material M_Grass
+[2021.12.15-14.34.52:883][611]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.12.15-14.34.52:911][611]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.12.15-14.34.52:915][611]LogMaterial: Display: Missing cached shader map for material M_Grass, compiling. 
+[2021.12.15-14.34.52:927][611]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 12
+[2021.12.15-14.34.52:927][611]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 10
+[2021.12.15-14.34.52:927][611]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 8
+[2021.12.15-14.34.52:944][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.12.15-14.34.52:951][611]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.15-14.34.53:486][611]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.12.15-14.34.53:486][611]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 7
+[2021.12.15-14.34.53:486][611]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.12.15-14.34.53:486][611]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.12.15-14.34.53:623][611]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.12.15-14.34.53:623][611]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 3
+[2021.12.15-14.34.53:623][611]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.12.15-14.34.53:623][611]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.12.15-14.34.53:625][611]TextureStreamingBuild: Display: Compiling optional shaders took 0.678 seconds.
+[2021.12.15-14.34.53:645][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.12.15-14.34.54:002][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Grass" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_Grass.uasset" SILENT=true
+[2021.12.15-14.34.54:006][611]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/M_Grass6BBF59E74616C38AC9B565BD5CEB5C1C.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_Grass.uasset'
+[2021.12.15-14.34.54:013][611]AssetCheck: New page: Asset Save: M_Grass
+[2021.12.15-14.34.54:013][611]LogContentValidation: Display: Validating Material /Game/Materials/M_Grass.M_Grass
+[2021.12.15-14.34.54:014][611]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.12.15-14.34.54:014][611]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.12.15-14.34.54:014][611]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.12.15-14.34.54:014][611]MaterialEditorStats: Texture samplers: 4/16
+[2021.12.15-14.34.54:014][611]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.12.15-14.34.54:014][611]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.12.15-14.34.55:203][720]LogSlate: Window 'M_Grass' being destroyed
+[2021.12.15-14.34.55:207][720]LogSlate: Window 'M_Grass' being destroyed
+[2021.12.15-14.34.55:213][720]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.34.55:213][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.35.02:980][330]LogContentBrowser: Attempting asset rename: M_Grass -> M_Floor
+[2021.12.15-14.35.03:033][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Floor" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_Floor.uasset" SILENT=true
+[2021.12.15-14.35.03:037][330]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/M_Floor6FAF920C482DBD91EEF76491382780B6.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Materials/M_Floor.uasset'
+[2021.12.15-14.35.03:088][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.12.15-14.35.03:101][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.15-14.35.03:110][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.12.15-14.35.03:136][330]AssetCheck: New page: Asset Save: M_Floor
+[2021.12.15-14.35.03:136][330]LogContentValidation: Display: Validating Material /Game/Materials/M_Floor.M_Floor
+[2021.12.15-14.35.09:079][833]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Walls/BP_DestructableWall.BP_DestructableWall
+[2021.12.15-14.35.09:354][833]LogActor: Warning: BP_DestructableWall_C /Engine/Transient.World_9:PersistentLevel.BP_DestructableWall_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.12.15-14.35.16:401][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walls/BP_DestructableWall" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Walls/BP_DestructableWall.uasset" SILENT=true
+[2021.12.15-14.35.16:419][426]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/BP_DestructableWallEFD541094C4FA488BDDB5786050B5611.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Walls/BP_DestructableWall.uasset'
+[2021.12.15-14.35.16:429][426]AssetCheck: New page: Asset Save: BP_DestructableWall
+[2021.12.15-14.35.16:429][426]LogContentValidation: Display: Validating Blueprint /Game/Walls/BP_DestructableWall.BP_DestructableWall
+[2021.12.15-14.35.17:340][530]LogSlate: Window 'BP_DestructableWall' being destroyed
+[2021.12.15-14.35.17:345][530]LogSlate: Window 'BP_DestructableWall' being destroyed
+[2021.12.15-14.35.17:347][530]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.35.17:347][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.35.18:764][638]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Walls/BP_SolidWall.BP_SolidWall
+[2021.12.15-14.35.19:125][638]LogActor: Warning: BP_SolidWall_C /Engine/Transient.World_10:PersistentLevel.BP_SolidWall_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.12.15-14.35.29:587][ 70]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s) (00000000)
+[2021.12.15-14.35.35:888][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Walls/BP_SolidWall" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Walls/BP_SolidWall.uasset" SILENT=true
+[2021.12.15-14.35.35:893][603]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/BP_SolidWall80C3736646EB5A95CD3AD2BFC6DE5D7E.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Walls/BP_SolidWall.uasset'
+[2021.12.15-14.35.35:900][603]AssetCheck: New page: Asset Save: BP_SolidWall
+[2021.12.15-14.35.35:900][603]LogContentValidation: Display: Validating Blueprint /Game/Walls/BP_SolidWall.BP_SolidWall
+[2021.12.15-14.35.36:811][701]LogSlate: Window 'BP_SolidWall' being destroyed
+[2021.12.15-14.35.36:814][701]LogSlate: Window 'BP_SolidWall' being destroyed
+[2021.12.15-14.35.36:816][701]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.35.36:816][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.35.41:469][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2021.12.15-14.35.49:187][902]LogMaterial: Display: Material /Game/Materials/M_Floor.M_Floor needed to have new flag set bUsedWithStaticLighting !
+[2021.12.15-14.35.49:187][902]LogMaterial: Display: Missing cached shader map for material M_Floor, compiling. 
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 21
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 19
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 17
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 13
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 11
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 9
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 7
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 5
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 3
+[2021.12.15-14.35.49:233][903]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.12.15-14.35.54:182][355]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.15-14.35.54:189][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.15-14.35.54:190][355]PIE: New page: PIE session: MainLevel (15 Dec 2021, 14:35:54)
+[2021.12.15-14.35.54:191][355]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.15-14.35.54:192][355]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.15-14.35.54:193][355]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2021.12.15-14.35.54:198][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005438s)
+[2021.12.15-14.35.54:200][355]LogAIModule: Creating AISystem for world MainLevel
+[2021.12.15-14.35.54:200][355]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2021.12.15-14.35.54:200][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.007424s)
+[2021.12.15-14.35.54:244][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.12.15-14.35.54:247][355]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.15-14.35.54:247][355]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.15-14.35.54:247][355]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.15-14.35.54:247][355]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.15-14.35.54:249][355]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.15-14.35.54:249][355]LogAudioMixer: Display: 1: FrontRight
+[2021.12.15-14.35.54:273][355]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.15-14.35.54:273][355]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.15-14.35.54:273][355]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.15-14.35.54:273][355]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.15-14.35.54:274][355]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.15-14.35.54:274][355]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.15-14.35.54:274][355]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.15-14.35.54:284][355]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.15-14.35.54:284][355]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.15-14.35.54:284][355]LogInit: FAudioDevice initialized.
+[2021.12.15-14.35.54:284][355]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainLevel'.
+[2021.12.15-14.35.54:293][355]LogLoad: Game class is 'GameModeBase'
+[2021.12.15-14.35.54:300][355]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2021.12.15-14.35.54
+[2021.12.15-14.35.54:301][355]LogWorld: Bringing up level for play took: 0.003509
+[2021.12.15-14.35.54:302][355]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.12.15-14.35.54:310][355]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.12.15-14.35.54:312][355]PIE: Server logged in
+[2021.12.15-14.35.54:314][355]PIE: Play in editor total start time 0.128 seconds.
+[2021.12.15-14.35.59:784][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.15-14.35.59:784][982]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2021.12.15-14.35.59:785][982]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-14.35.59:786][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.35.59:792][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.15-14.35.59:804][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-14.35.59:828][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.15-14.35.59:829][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.15-14.35.59:830][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.15-14.35.59:843][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.15-14.35.59:880][982]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.12.15-14.35.59:903][983]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.12.15-14.36.07:382][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Levels/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.15-14.36.07:412][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.12.15-14.36.07:429][803]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/MainLevel9843EE1542C6538CD29CA6B8E3AF783D.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Levels/MainLevel.umap'
+[2021.12.15-14.36.07:434][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainLevel_BuiltData" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Levels/MainLevel_BuiltData.uasset" SILENT=true
+[2021.12.15-14.36.07:436][803]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/MainLevel_BuiltData025488174BA3C49B08B6D4B0DA677B4A.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Content/Levels/MainLevel_BuiltData.uasset'
+[2021.12.15-14.36.07:446][803]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.15-14.36.07:446][803]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
+[2021.12.15-14.36.07:446][803]LogContentValidation: Display: Validating World /Game/Levels/MainLevel.MainLevel
