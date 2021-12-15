@@ -39,7 +39,10 @@ void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 
 	if ((OtherActor != nullptr) && (OtherActor != this))
 	{
-		OtherActor->Destroy();
+		if (OtherActor->IsA(DestructrableWall_))
+		{
+			OtherActor->Destroy();
+		}
 	}
 }
 

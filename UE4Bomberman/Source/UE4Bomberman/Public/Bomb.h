@@ -8,7 +8,7 @@
 
 class UStaticMesh;
 class UBoxComponent;
-class AWall;
+class ADestructableWall;
 
 UCLASS()
 class UE4BOMBERMAN_API ABomb : public AActor
@@ -41,15 +41,18 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision Box")
 		UBoxComponent* CollisionBoxY;
 
-	TSubclassOf<AWall> wallClass_;
 	//AWall* wallActor;
 	bool isRemoteControlled = false;
 
 	void OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherActor);
 	
 	void CheckForOverlappingActors();
+
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Wall")
+		TSubclassOf<class AActor> DestructrableWall_;
 };
