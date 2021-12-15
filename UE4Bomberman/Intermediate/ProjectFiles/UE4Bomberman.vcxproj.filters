@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE4Bomberman.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{79BF6519-13F5-4E2F-BF28-58A916673452}</UniqueIdentifier>
+      <UniqueIdentifier>{30C337AB-07A8-4CF2-A672-D1D59910FDF1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Bomberman.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7391E5B5-48DB-49E2-88E9-E49E78A902F8}</UniqueIdentifier>
+      <UniqueIdentifier>{29682C3E-6FE4-4A34-927C-3739D960BB2E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\UE4Bomberman">
-      <UniqueIdentifier>{D93214EE-692D-460C-B470-E8291E38B40E}</UniqueIdentifier>
+      <UniqueIdentifier>{78C5E629-7D1E-4BD4-81B1-87E0EE9BA359}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Bomberman\UE4Bomberman.Build.cs">
       <Filter>Source\UE4Bomberman</Filter>
@@ -42,8 +45,11 @@
       <Filter>Source\UE4Bomberman</Filter>
     </ClInclude>
     <Filter Include="Source\UE4Bomberman\Private">
-      <UniqueIdentifier>{D61F0B21-F984-40F4-9F09-670C5612C558}</UniqueIdentifier>
+      <UniqueIdentifier>{5705112D-3D4E-4485-A3A7-234661F1A777}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UE4Bomberman\Private\Bomb.cpp">
+      <Filter>Source\UE4Bomberman\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UE4Bomberman\Private\DestructableWall.cpp">
       <Filter>Source\UE4Bomberman\Private</Filter>
     </ClCompile>
@@ -60,8 +66,11 @@
       <Filter>Source\UE4Bomberman\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UE4Bomberman\Public">
-      <UniqueIdentifier>{8282C6B5-8A27-407D-A260-F51463C6D256}</UniqueIdentifier>
+      <UniqueIdentifier>{30163563-F694-4C62-BE64-CE2A8089DFE3}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\UE4Bomberman\Public\Bomb.h">
+      <Filter>Source\UE4Bomberman\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UE4Bomberman\Public\DestructableWall.h">
       <Filter>Source\UE4Bomberman\Public</Filter>
     </ClInclude>

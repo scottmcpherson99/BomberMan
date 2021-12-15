@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructableWall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADestructableWall, 4037884234);
+	IMPLEMENT_CLASS(ADestructableWall, 1849779165);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ADestructableWall>()
 	{
 		return ADestructableWall::StaticClass();

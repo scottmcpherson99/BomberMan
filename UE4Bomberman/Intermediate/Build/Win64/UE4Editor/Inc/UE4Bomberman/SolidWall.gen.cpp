@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSolidWall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASolidWall, 1529119960);
+	IMPLEMENT_CLASS(ASolidWall, 2247575227);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ASolidWall>()
 	{
 		return ASolidWall::StaticClass();

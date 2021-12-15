@@ -17,7 +17,11 @@ class UE4BOMBERMAN_API AWall : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AWall();
+	//UFUNCTION(BlueprintCallable, BlueprintPure)
+	//bool GetBreakable() const;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool isBreakable;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -27,17 +31,14 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	
+
 protected:
 
-	UFUNCTION(BlueprintCallable, BlueprintPure)
-	bool GetBreakable() const;
-
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Root")
 		UStaticMeshComponent* RootComp;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Mesh")
 		UStaticMeshComponent* MeshComp;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool isBreakable;
 };

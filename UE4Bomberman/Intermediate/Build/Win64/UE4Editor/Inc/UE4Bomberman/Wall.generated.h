@@ -14,16 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UE4BOMBERMAN_Wall_generated_h
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_SPARSE_DATA
-#define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execGetBreakable);
-
-
-#define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execGetBreakable);
-
-
+#define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_RPC_WRAPPERS
+#define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWall(); \
@@ -68,8 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWall); \
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RootComp() { return STRUCT_OFFSET(AWall, RootComp); } \
-	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(AWall, MeshComp); } \
-	FORCEINLINE static uint32 __PPO__isBreakable() { return STRUCT_OFFSET(AWall, isBreakable); }
+	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(AWall, MeshComp); }
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_Wall_h_12_PROLOG
