@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\UE4Bomberman\\Source\\UE4Bomberman\\UE4Bomberman.Build.cs",
+		"D:\\Unreal Projects\\UE4Bomberman\\Source\\UE4Bomberman.Target.cs",
+		"D:\\Unreal Projects\\UE4Bomberman\\Source\\UE4BombermanEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
