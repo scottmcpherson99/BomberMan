@@ -90,6 +90,10 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DestructrableWall__MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DestructrableWall_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerCharacter__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_PlayerCharacter_;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -152,12 +156,20 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall_ = { "DestructrableWall_", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABomb, DestructrableWall_), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter__MetaData[] = {
+		{ "Category", "Player 1" },
+		{ "ModuleRelativePath", "Public/Bomb.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter_ = { "PlayerCharacter_", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABomb, PlayerCharacter_), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter__MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABomb_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_RootComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_MeshComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxX,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxY,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter_,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABomb_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABomb>::IsAbstract,
@@ -186,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABomb, 1393448396);
+	IMPLEMENT_CLASS(ABomb, 1471459589);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ABomb>()
 	{
 		return ABomb::StaticClass();

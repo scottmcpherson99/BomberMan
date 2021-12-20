@@ -14,18 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UE4BOMBERMAN_PlayerCharacter_generated_h
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_SPARSE_DATA
-#define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execMoveRight); \
-	DECLARE_FUNCTION(execMoveForward);
-
-
-#define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execMoveRight); \
-	DECLARE_FUNCTION(execMoveForward);
-
-
+#define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_RPC_WRAPPERS
+#define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \
@@ -69,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(APlayerCharacter, MeshComp); }
+	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(APlayerCharacter, MeshComp); } \
+	FORCEINLINE static uint32 __PPO__bombToSpawn() { return STRUCT_OFFSET(APlayerCharacter, bombToSpawn); }
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_12_PROLOG

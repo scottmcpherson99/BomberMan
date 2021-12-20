@@ -43,6 +43,11 @@ void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 		{
 			OtherActor->Destroy();
 		}
+		else if (OtherActor->IsA(PlayerCharacter_))
+		{
+			printf("Player Hit");
+			printf("Player Hit");
+		}
 	}
 }
 

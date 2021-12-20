@@ -2,6 +2,7 @@
 
 #include <Components/SkeletalMeshComponent.h>
 #include "PlayerCharacter.h"
+#include "Bomb.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -33,6 +34,11 @@ void APlayerCharacter::Tick(float DeltaTime)
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
+
+	PlayerInputComponent->BindAction("DropBomb", IE_Pressed, this, &APlayerCharacter::SpawnBomb);
 
 }
 
@@ -71,4 +77,29 @@ void APlayerCharacter::MoveRight(float value)
 		}
 	}
 	AddMovementInput(FVector(0.0f, 1.0f * value, 0.0f));
+}
+
+void APlayerCharacter::SpawnBomb()
+{
+	//check to see if the type of bomb has been selected
+	if (bombToSpawn != NULL)
+	{
+		//check for valid world
+		UWorld* const world = GetWorld();
+
+		if (world)
+		{
+			//set the spawn parameters
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Owner = this;
+			SpawnParams.Instigator = GetInstigator();
+
+			FVector SpawnLocation = RootComponent->GetComponentLocation();
+
+			FRotator SpawnRotator = FRotator(0.0f, 0.0f, 0.0f);
+
+			ABomb* const droppedBomb = world->SpawnActor<ABomb>(bombToSpawn, SpawnLocation, SpawnRotator, SpawnParams);
+
+		}
+	}
 }

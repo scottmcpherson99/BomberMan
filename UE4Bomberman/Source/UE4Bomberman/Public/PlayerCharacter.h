@@ -24,11 +24,15 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Skeletal Mesh")
 	USkeletalMeshComponent* MeshComp;
 
-	UFUNCTION(BlueprintCallable)
 	void MoveForward(float value);
 
-	UFUNCTION(BlueprintCallable)
 	void MoveRight(float value);
+
+	void SpawnBomb();
+
+	UPROPERTY(EditAnywhere, Category = "Type of Bomb to spawn")
+	TSubclassOf<class ABomb> bombToSpawn;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

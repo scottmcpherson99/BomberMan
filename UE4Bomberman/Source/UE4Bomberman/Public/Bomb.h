@@ -41,7 +41,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision Box")
 		UBoxComponent* CollisionBoxY;
 
-	//AWall* wallActor;
 	bool isRemoteControlled = false;
 
 	void OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherActor);
@@ -55,4 +54,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Wall")
 		TSubclassOf<class AActor> DestructrableWall_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player 1")
+		TSubclassOf<class AActor> PlayerCharacter_;
 };

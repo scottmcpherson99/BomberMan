@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUE4Bomberman_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x8356484A,
+				0xF1395517,
 				0x671BF29D,
 				METADATA_PARAMS(nullptr, 0)
 			};
