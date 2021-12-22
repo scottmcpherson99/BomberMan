@@ -3,6 +3,7 @@
 #include <Components/SkeletalMeshComponent.h>
 #include "PlayerCharacter.h"
 #include "Bomb.h"
+#include "BaseDrop.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -13,6 +14,11 @@ APlayerCharacter::APlayerCharacter()
 	//set the root component
 	MeshComp = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Root Coponent"));
 	MeshComp->SetupAttachment(RootComponent);
+
+	//create the collection sphere
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
+	CollectionSphere->AttachTo(RootComponent);
+	CollectionSphere->SetSphereRadius(200.f);
 
 }
 
@@ -39,7 +45,9 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
 
 	PlayerInputComponent->BindAction("DropBomb", IE_Pressed, this, &APlayerCharacter::SpawnBomb);
+	PlayerInputComponent->BindAction("Pickup PowerUp", IE_Pressed, this, &APlayerCharacter::CollectPickups);
 
+	
 }
 
 
@@ -100,6 +108,28 @@ void APlayerCharacter::SpawnBomb()
 
 			ABomb* const droppedBomb = world->SpawnActor<ABomb>(bombToSpawn, SpawnLocation, SpawnRotator, SpawnParams);
 
+		}
+	}
+}
+
+void APlayerCharacter::CollectPickups()
+{
+	//get all overlapping actors and store them in array
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors);
+
+	//for each actor we collected
+	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected)
+	{
+		//cast the actor to APickup
+		ABaseDrop* const TestPickup = Cast<ABaseDrop>(CollectedActors[iCollected]);
+		//if the cast is successful and the pickup is valid and active
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		{
+			//call the pickup's is collectd function
+			TestPickup->WasCollected();
+			//deactivate he pickup
+			TestPickup->SetActive(false);
 		}
 	}
 }

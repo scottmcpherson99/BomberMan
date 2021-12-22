@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/SphereComponent.h"
 #include "PlayerCharacter.generated.h"
 
 class UStaticMeshComponent;
@@ -24,6 +25,10 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Skeletal Mesh")
 	USkeletalMeshComponent* MeshComp;
 
+	/** Collection Sphere */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+		class USphereComponent* CollectionSphere;
+
 	void MoveForward(float value);
 
 	void MoveRight(float value);
@@ -32,6 +37,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Type of Bomb to spawn")
 	TSubclassOf<class ABomb> bombToSpawn;
+
+	//called when we collect any pickups inside the collectionsphere
+	UFUNCTION(BlueprintCallable, Category = "Pickups")
+		void CollectPickups();
 
 public:	
 	// Called every frame

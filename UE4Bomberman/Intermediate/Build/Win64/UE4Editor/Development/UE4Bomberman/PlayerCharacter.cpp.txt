@@ -6,6 +6,12 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\PlayerCharacter.generated.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Public\Bomb.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\Bomb.generated.h
+D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Public\BaseDrop.h
+D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\BaseDrop.generated.h
