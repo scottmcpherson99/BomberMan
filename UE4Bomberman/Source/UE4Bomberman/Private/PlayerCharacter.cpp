@@ -20,6 +20,9 @@ APlayerCharacter::APlayerCharacter()
 	CollectionSphere->AttachTo(RootComponent);
 	CollectionSphere->SetSphereRadius(200.f);
 
+	//set the initial bombs left
+	bombsLeft = 1;
+	maxBombs = 3;
 }
 
 // Called when the game starts or when spawned
@@ -34,6 +37,7 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	CheckForReload();
 }
 
 // Called to bind functionality to input
@@ -89,6 +93,7 @@ void APlayerCharacter::MoveRight(float value)
 
 void APlayerCharacter::SpawnBomb()
 {
+
 	//check to see if the type of bomb has been selected
 	if (bombToSpawn != NULL)
 	{
@@ -97,20 +102,28 @@ void APlayerCharacter::SpawnBomb()
 
 		if (world)
 		{
-			//set the spawn parameters
-			FActorSpawnParameters SpawnParams;
-			SpawnParams.Owner = this;
-			SpawnParams.Instigator = GetInstigator();
+			if (bombsLeft > 0)
+			{
+				//set the spawn parameters
+				FActorSpawnParameters SpawnParams;
+				SpawnParams.Owner = this;
+				SpawnParams.Instigator = GetInstigator();
 
-			FVector SpawnLocation = RootComponent->GetComponentLocation();
+				FVector SpawnLocation = RootComponent->GetComponentLocation();
 
-			FRotator SpawnRotator = FRotator(0.0f, 0.0f, 0.0f);
+				FRotator SpawnRotator = FRotator(0.0f, 0.0f, 0.0f);
 
-			ABomb* const droppedBomb = world->SpawnActor<ABomb>(bombToSpawn, SpawnLocation, SpawnRotator, SpawnParams);
+				ABomb* const droppedBomb = world->SpawnActor<ABomb>(bombToSpawn, SpawnLocation, SpawnRotator, SpawnParams);
 
+				world->GetTimerManager().SetTimer(bombTimer, this, &APlayerCharacter::SetBombs, reloadDelay, true);
+
+				bombsLeft--;
+
+			}
 		}
 	}
 }
+
 
 void APlayerCharacter::CollectPickups()
 {
@@ -126,10 +139,35 @@ void APlayerCharacter::CollectPickups()
 		//if the cast is successful and the pickup is valid and active
 		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
 		{
+			if (TestPickup->IsA(SpeedIncrease_))
+			{
+				MovementPtr->MaxWalkSpeed = 1000;
+			}
+
 			//call the pickup's is collectd function
 			TestPickup->WasCollected();
 			//deactivate he pickup
 			TestPickup->SetActive(false);
 		}
 	}
+}
+
+
+void APlayerCharacter::SetBombs()
+{
+	if (bombsLeft < maxBombs)
+	{
+		bombsLeft++;
+	}
+}
+
+void APlayerCharacter::SetMaxBombs(int maxBombs_)
+{
+	maxBombs = maxBombs_;
+}
+
+
+int APlayerCharacter::GetBombs() const
+{
+	return bombsLeft;
 }

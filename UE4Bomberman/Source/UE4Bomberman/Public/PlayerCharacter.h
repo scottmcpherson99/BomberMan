@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Components/SphereComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "PlayerCharacter.generated.h"
 
 class UStaticMeshComponent;
@@ -42,6 +43,14 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Pickups")
 		void CollectPickups();
 
+private:
+	UCharacterMovementComponent* MovementPtr = Cast<UCharacterMovementComponent>(GetCharacterMovement());
+
+	int bombsLeft;
+	int maxBombs;
+	FTimerHandle bombTimer;
+	float reloadDelay = 3;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -49,4 +58,16 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
+		TSubclassOf<class AActor> SpeedIncrease_;
+
+	UFUNCTION(BlueprintCallable, Category = "Bombs")
+		void SetBombs();
+
+	UFUNCTION(BlueprintCallable, Category = "Bombs")
+	int GetBombs() const;
+
+	UFUNCTION(BlueprintCallable, Category = "Bombs")
+		void SetMaxBombs(int maxBombs_);
+	
 };
