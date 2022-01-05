@@ -14,4 +14,6 @@ class UE4BOMBERMAN_API AUE4BombermanGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+	
 };

@@ -1,15 +1,16 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "Bomb.h"
 #include <Components/StaticMeshComponent.h>
 #include <Components/BoxComponent.h>
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
-#include "Bomb.h"
 
 // Sets default values
 ABomb::ABomb()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
 
 	//set the root component
 	RootComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Root Coponent"));
@@ -22,6 +23,7 @@ ABomb::ABomb()
 	//set up the collsion boxes
 	CollisionBoxX = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision Box X"));
 	CollisionBoxX->SetupAttachment(RootComp);
+
 	CollisionBoxY = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision Box Y"));
 	CollisionBoxY->SetupAttachment(RootComp);
 }

@@ -43,13 +43,17 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = "Pickups")
 		void CollectPickups();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Bomb Size")
+		FVector bombInitialScale_;
 private:
 	UCharacterMovementComponent* MovementPtr = Cast<UCharacterMovementComponent>(GetCharacterMovement());
 
 	int bombsLeft;
 	int maxBombs;
 	FTimerHandle bombTimer;
-	float reloadDelay = 3;
+	float reloadDelay = 3; 
+	FVector bombScale_;
+	FString currentPowerup;
 
 public:	
 	// Called every frame
@@ -61,6 +65,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
 		TSubclassOf<class AActor> SpeedIncrease_;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
+		TSubclassOf<class AActor> BigBomb_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
+		TSubclassOf<class AActor> MultiBomb_;
+
+	
+
 	UFUNCTION(BlueprintCallable, Category = "Bombs")
 		void SetBombs();
 
@@ -70,4 +82,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Bombs")
 		void SetMaxBombs(int maxBombs_);
 	
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+		FString GetCurrentPowerup() const;
 };

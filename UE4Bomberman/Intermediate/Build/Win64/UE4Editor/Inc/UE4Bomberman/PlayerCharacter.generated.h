@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_17_SPARSE_DATA
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_17_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execCheckForReload); \
+	DECLARE_FUNCTION(execGetCurrentPowerup); \
 	DECLARE_FUNCTION(execSetMaxBombs); \
 	DECLARE_FUNCTION(execGetBombs); \
 	DECLARE_FUNCTION(execSetBombs); \
@@ -25,7 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execCheckForReload); \
+	DECLARE_FUNCTION(execGetCurrentPowerup); \
 	DECLARE_FUNCTION(execSetMaxBombs); \
 	DECLARE_FUNCTION(execGetBombs); \
 	DECLARE_FUNCTION(execSetBombs); \
@@ -77,7 +77,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(APlayerCharacter, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__CollectionSphere() { return STRUCT_OFFSET(APlayerCharacter, CollectionSphere); } \
-	FORCEINLINE static uint32 __PPO__bombToSpawn() { return STRUCT_OFFSET(APlayerCharacter, bombToSpawn); }
+	FORCEINLINE static uint32 __PPO__bombToSpawn() { return STRUCT_OFFSET(APlayerCharacter, bombToSpawn); } \
+	FORCEINLINE static uint32 __PPO__bombInitialScale_() { return STRUCT_OFFSET(APlayerCharacter, bombInitialScale_); }
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_14_PROLOG

@@ -2,12 +2,11 @@
   Building UE4BombermanEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] PlayerCharacter.cpp
-D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\PlayerCharacter.cpp(20): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    [2/4] UE4Editor-UE4Bomberman-0102.lib
-       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0102.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0102.exp
-    [3/4] UE4Editor-UE4Bomberman-0102.dll
-       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0102.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0102.suppressed.exp
+    [1/4] GameHUDWidget.cpp
+    [2/4] UE4Editor-UE4Bomberman-0065.lib
+       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0065.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0065.exp
+    [3/4] UE4Editor-UE4Bomberman-0065.dll
+       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0065.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0065.suppressed.exp
     [4/4] UE4BombermanEditor.target
-  Total time in Parallel executor: 2.71 seconds
-  Total execution time: 3.18 seconds
+  Total time in Parallel executor: 7.40 seconds
+  Total execution time: 7.84 seconds

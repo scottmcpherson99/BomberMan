@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include <Components/SkeletalMeshComponent.h>
 #include "PlayerCharacter.h"
+#include <Components/SkeletalMeshComponent.h>
 #include "Bomb.h"
 #include "BaseDrop.h"
 
@@ -22,7 +22,12 @@ APlayerCharacter::APlayerCharacter()
 
 	//set the initial bombs left
 	bombsLeft = 1;
-	maxBombs = 3;
+	maxBombs = 1;
+
+	//set the initial bomb scale
+	bombScale_ = FVector(1.0f, 1.0f, 1.0f);
+
+	currentPowerup = "None";
 }
 
 // Called when the game starts or when spawned
@@ -37,7 +42,6 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	CheckForReload();
 }
 
 // Called to bind functionality to input
@@ -113,7 +117,10 @@ void APlayerCharacter::SpawnBomb()
 
 				FRotator SpawnRotator = FRotator(0.0f, 0.0f, 0.0f);
 
+				
 				ABomb* const droppedBomb = world->SpawnActor<ABomb>(bombToSpawn, SpawnLocation, SpawnRotator, SpawnParams);
+
+				droppedBomb->SetActorScale3D(bombScale_);
 
 				world->GetTimerManager().SetTimer(bombTimer, this, &APlayerCharacter::SetBombs, reloadDelay, true);
 
@@ -142,6 +149,25 @@ void APlayerCharacter::CollectPickups()
 			if (TestPickup->IsA(SpeedIncrease_))
 			{
 				MovementPtr->MaxWalkSpeed = 1000;
+				bombScale_ = FVector(1.0f, 1.0f, 1.0f);
+				maxBombs = 1;
+				currentPowerup = "Speed Increase";
+			}
+
+			else if (TestPickup->IsA(BigBomb_))
+			{
+				MovementPtr->MaxWalkSpeed = 600;
+				bombScale_ = FVector(2.0f, 2.0f, 2.0f);
+				maxBombs = 1;
+				currentPowerup = "Larger Bombs";
+			}
+
+			else if (TestPickup->IsA(MultiBomb_))
+			{
+				MovementPtr->MaxWalkSpeed = 600;
+				bombScale_ = FVector(1.0f, 1.0f, 1.0f);
+				maxBombs = 3;
+				currentPowerup = "Multiple Bombs";
 			}
 
 			//call the pickup's is collectd function
@@ -164,6 +190,11 @@ void APlayerCharacter::SetBombs()
 void APlayerCharacter::SetMaxBombs(int maxBombs_)
 {
 	maxBombs = maxBombs_;
+}
+
+FString APlayerCharacter::GetCurrentPowerup() const
+{
+	return currentPowerup;
 }
 
 

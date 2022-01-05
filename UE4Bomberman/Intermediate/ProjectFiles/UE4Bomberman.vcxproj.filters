@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE4Bomberman.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CC69F834-2A25-4A55-849F-ECB18F20628F}</UniqueIdentifier>
+      <UniqueIdentifier>{CDFF79F6-DAEB-45BD-8964-914991108684}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Bomberman.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{20C4D21E-ECA1-48FA-B197-7ED3ED7CFEA9}</UniqueIdentifier>
+      <UniqueIdentifier>{56AC78A3-8ED1-40F2-826A-234D0B38E1ED}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UE4Bomberman">
-      <UniqueIdentifier>{1D3FFDAA-756C-48E4-87B7-8ECBB40E657B}</UniqueIdentifier>
+      <UniqueIdentifier>{30FA47DD-CE3C-4B81-B767-8B84588F2B26}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE4Bomberman\UE4Bomberman.Build.cs">
       <Filter>Source\UE4Bomberman</Filter>
@@ -45,15 +45,27 @@
       <Filter>Source\UE4Bomberman</Filter>
     </ClInclude>
     <Filter Include="Source\UE4Bomberman\Private">
-      <UniqueIdentifier>{70ABF650-B5B6-42AD-B99A-B0556EEE7054}</UniqueIdentifier>
+      <UniqueIdentifier>{49A56B59-1F69-4CDF-B595-3F45FDBF98C2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UE4Bomberman\Private\BaseDrop.cpp">
+      <Filter>Source\UE4Bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4Bomberman\Private\BigBombDrop.cpp">
       <Filter>Source\UE4Bomberman\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UE4Bomberman\Private\Bomb.cpp">
       <Filter>Source\UE4Bomberman\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UE4Bomberman\Private\BombermanGameMode.cpp">
+      <Filter>Source\UE4Bomberman\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UE4Bomberman\Private\DestructableWall.cpp">
+      <Filter>Source\UE4Bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4Bomberman\Private\GameHUDWidget.cpp">
+      <Filter>Source\UE4Bomberman\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UE4Bomberman\Private\MultiBombDrop.cpp">
       <Filter>Source\UE4Bomberman\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UE4Bomberman\Private\MyActor.cpp">
@@ -75,15 +87,27 @@
       <Filter>Source\UE4Bomberman\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UE4Bomberman\Public">
-      <UniqueIdentifier>{EB02E13E-4E3F-4342-8337-104CF375D3FD}</UniqueIdentifier>
+      <UniqueIdentifier>{0E73DCC4-F9AF-4A37-BEBF-D0C0CB697384}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UE4Bomberman\Public\BaseDrop.h">
+      <Filter>Source\UE4Bomberman\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4Bomberman\Public\BigBombDrop.h">
       <Filter>Source\UE4Bomberman\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UE4Bomberman\Public\Bomb.h">
       <Filter>Source\UE4Bomberman\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UE4Bomberman\Public\BombermanGameMode.h">
+      <Filter>Source\UE4Bomberman\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UE4Bomberman\Public\DestructableWall.h">
+      <Filter>Source\UE4Bomberman\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4Bomberman\Public\GameHUDWidget.h">
+      <Filter>Source\UE4Bomberman\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UE4Bomberman\Public\MultiBombDrop.h">
       <Filter>Source\UE4Bomberman\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UE4Bomberman\Public\MyActor.h">
