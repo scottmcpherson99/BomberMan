@@ -99,6 +99,10 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\GameHUDWidget.generated.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Public\PlayerCharacter.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h

@@ -54,7 +54,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Wall")
-		TSubclassOf<class AActor> DestructrableWall_;
+		TSubclassOf<class ADestructableWall> DestructrableWall_;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player 1")
 		TSubclassOf<class AActor> PlayerCharacter_;

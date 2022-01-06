@@ -19,6 +19,16 @@ public:
 
 	~ADestructableWall();
 
-protected:
 	void DestroyWall();
+protected:
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
+		TSubclassOf<class AActor> SpeedIncrease_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
+		TSubclassOf<class AActor> BigBomb_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Powerups")
+		TSubclassOf<class AActor> MultiBomb_;
+
 };

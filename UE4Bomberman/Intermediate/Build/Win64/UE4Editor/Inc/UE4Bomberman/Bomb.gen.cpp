@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UE4BOMBERMAN_API UClass* Z_Construct_UClass_ADestructableWall_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ABomb::execExplodeBomb)
@@ -155,7 +156,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		{ "ModuleRelativePath", "Public/Bomb.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall_ = { "DestructrableWall_", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABomb, DestructrableWall_), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall_ = { "DestructrableWall_", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABomb, DestructrableWall_), Z_Construct_UClass_ADestructableWall_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter__MetaData[] = {
 		{ "Category", "Player 1" },
@@ -198,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABomb, 1471459589);
+	IMPLEMENT_CLASS(ABomb, 1639704208);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ABomb>()
 	{
 		return ABomb::StaticClass();

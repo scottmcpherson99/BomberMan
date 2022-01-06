@@ -9,6 +9,7 @@
 /**
  * 
  */
+
 UCLASS()
 class UE4BOMBERMAN_API ABombermanGameMode : public AGameModeBase
 {
@@ -17,7 +18,6 @@ class UE4BOMBERMAN_API ABombermanGameMode : public AGameModeBase
 public:
 	ABombermanGameMode();
 
-	virtual void Tick(float DeltaTime) override;
 
 	virtual void BeginPlay() override;
 
@@ -31,7 +31,14 @@ protected:
 	UPROPERTY(VisibleInstanceOnly, Category = "Runtime")
 		class UGameHUDWidget* gameWidget;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Settings", Meta = (BlueprintProtected = "true"))
+		float gameTotalTime;
 
+	float timeRemaining;
+
+	FTimerHandle gameTimer;
+
+	void DecreaseTimer();
 	//the instance of the hud
 	//UPROPERTY()
 	//class UUserWidget* CurrentWidget;

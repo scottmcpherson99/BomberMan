@@ -58,7 +58,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADestructableWall); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADestructableWall)
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_DestructableWall_h_15_PRIVATE_PROPERTY_OFFSET
+#define UE4Bomberman_Source_UE4Bomberman_Public_DestructableWall_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpeedIncrease_() { return STRUCT_OFFSET(ADestructableWall, SpeedIncrease_); } \
+	FORCEINLINE static uint32 __PPO__BigBomb_() { return STRUCT_OFFSET(ADestructableWall, BigBomb_); } \
+	FORCEINLINE static uint32 __PPO__MultiBomb_() { return STRUCT_OFFSET(ADestructableWall, MultiBomb_); }
+
+
 #define UE4Bomberman_Source_UE4Bomberman_Public_DestructableWall_h_12_PROLOG
 #define UE4Bomberman_Source_UE4Bomberman_Public_DestructableWall_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

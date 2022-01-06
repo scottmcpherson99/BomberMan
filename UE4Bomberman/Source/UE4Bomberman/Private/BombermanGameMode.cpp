@@ -5,6 +5,8 @@
 #include "PlayerCharacter.h"
 #include "Blueprint/UserWidget.h"
 #include "GameHUDWidget.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 ABombermanGameMode::ABombermanGameMode()
 {
@@ -15,12 +17,14 @@ ABombermanGameMode::ABombermanGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 	
+	
 }
 
 void ABombermanGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//create the widget
 	if (IsValid(HUDWidgetClass))
 	{
 		gameWidget = Cast<UGameHUDWidget>(CreateWidget(GetWorld(), HUDWidgetClass));
@@ -28,28 +32,36 @@ void ABombermanGameMode::BeginPlay()
 
 	if (gameWidget != nullptr)
 	{
+		//add the widget to the screen
 		gameWidget->AddToViewport();
-		UE_LOG(LogTemp, Warning, TEXT("gameWidget found!"));
-
 	}
 	else
 	{
+		//widget wasn't found
 		UE_LOG(LogTemp, Warning, TEXT("gameWidget not found!"));
 	}
-	/*
+	
+	timeRemaining = gameTotalTime;
 
-	if (HUDWidgetClass != nullptr)
+	//check for valid world
+	UWorld* const world = GetWorld();
+
+	if (world)
 	{
-		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), HUDWidgetClass);
-
-		if (CurrentWidget != nullptr)
-		{
-			CurrentWidget->AddToViewport();
-		}
-	}*/
+		//decrease the timer by 1 every second
+		world->GetTimerManager().SetTimer(gameTimer, this, &ABombermanGameMode::DecreaseTimer, 1.0f, true);
+	}
 }
 
-void ABombermanGameMode::Tick(float DeltaTime)
+void ABombermanGameMode::DecreaseTimer()
 {
+	//decrease the timer and update this on the UI
+	timeRemaining--;
+	gameWidget->UpdateTimer(timeRemaining);
 
+	//if the timer has reached 0, exit the game
+	if (timeRemaining <= 0)
+	{
+		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+	}
 }

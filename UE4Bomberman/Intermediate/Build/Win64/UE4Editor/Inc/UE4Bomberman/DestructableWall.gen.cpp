@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeDestructableWall() {}
 	UE4BOMBERMAN_API UClass* Z_Construct_UClass_ADestructableWall();
 	UE4BOMBERMAN_API UClass* Z_Construct_UClass_AWall();
 	UPackage* Z_Construct_UPackage__Script_UE4Bomberman();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void ADestructableWall::StaticRegisterNativesADestructableWall()
 	{
@@ -31,6 +33,19 @@ void EmptyLinkFunctionForGeneratedCodeDestructableWall() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpeedIncrease__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_SpeedIncrease_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BigBomb__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_BigBomb_;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MultiBomb__MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_MultiBomb_;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +60,32 @@ void EmptyLinkFunctionForGeneratedCodeDestructableWall() {}
 		{ "ModuleRelativePath", "Public/DestructableWall.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADestructableWall_Statics::NewProp_SpeedIncrease__MetaData[] = {
+		{ "Category", "Powerups" },
+		{ "ModuleRelativePath", "Public/DestructableWall.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADestructableWall_Statics::NewProp_SpeedIncrease_ = { "SpeedIncrease_", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADestructableWall, SpeedIncrease_), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ADestructableWall_Statics::NewProp_SpeedIncrease__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADestructableWall_Statics::NewProp_SpeedIncrease__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADestructableWall_Statics::NewProp_BigBomb__MetaData[] = {
+		{ "Category", "Powerups" },
+		{ "ModuleRelativePath", "Public/DestructableWall.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADestructableWall_Statics::NewProp_BigBomb_ = { "BigBomb_", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADestructableWall, BigBomb_), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ADestructableWall_Statics::NewProp_BigBomb__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADestructableWall_Statics::NewProp_BigBomb__MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADestructableWall_Statics::NewProp_MultiBomb__MetaData[] = {
+		{ "Category", "Powerups" },
+		{ "ModuleRelativePath", "Public/DestructableWall.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ADestructableWall_Statics::NewProp_MultiBomb_ = { "MultiBomb_", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADestructableWall, MultiBomb_), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ADestructableWall_Statics::NewProp_MultiBomb__MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ADestructableWall_Statics::NewProp_MultiBomb__MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADestructableWall_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADestructableWall_Statics::NewProp_SpeedIncrease_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADestructableWall_Statics::NewProp_BigBomb_,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADestructableWall_Statics::NewProp_MultiBomb_,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ADestructableWall_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ADestructableWall>::IsAbstract,
 	};
@@ -54,11 +95,11 @@ void EmptyLinkFunctionForGeneratedCodeDestructableWall() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ADestructableWall_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ADestructableWall_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ADestructableWall_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ADestructableWall_Statics::Class_MetaDataParams))
@@ -72,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeDestructableWall() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADestructableWall, 1849779165);
+	IMPLEMENT_CLASS(ADestructableWall, 3796520666);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ADestructableWall>()
 	{
 		return ADestructableWall::StaticClass();

@@ -1,6 +1,10 @@
 D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\Definitions.UE4Bomberman.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Public\Bomb.h
 D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\Bomb.generated.h
+D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Public\DestructableWall.h
+D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Public\Wall.h
+D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\Wall.generated.h
+D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Inc\UE4Bomberman\DestructableWall.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

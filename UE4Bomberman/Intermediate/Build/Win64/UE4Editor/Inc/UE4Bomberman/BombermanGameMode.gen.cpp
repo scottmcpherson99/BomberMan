@@ -42,6 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_gameWidget_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_gameWidget;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_gameTotalTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_gameTotalTime;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -76,9 +80,18 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameMode() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameWidget = { "gameWidget", nullptr, (EPropertyFlags)0x00200800000a0809, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABombermanGameMode, gameWidget), Z_Construct_UClass_UGameHUDWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameWidget_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameTotalTime_MetaData[] = {
+		{ "BlueprintProtected", "true" },
+		{ "Category", "Game Settings" },
+		{ "ModuleRelativePath", "Public/BombermanGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameTotalTime = { "gameTotalTime", nullptr, (EPropertyFlags)0x0020080000010005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABombermanGameMode, gameTotalTime), METADATA_PARAMS(Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameTotalTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameTotalTime_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABombermanGameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_HUDWidgetClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameWidget,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABombermanGameMode_Statics::NewProp_gameTotalTime,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABombermanGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABombermanGameMode>::IsAbstract,
@@ -107,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeBombermanGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABombermanGameMode, 3656919186);
+	IMPLEMENT_CLASS(ABombermanGameMode, 3243764275);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ABombermanGameMode>()
 	{
 		return ABombermanGameMode::StaticClass();

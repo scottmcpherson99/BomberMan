@@ -40,6 +40,10 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BombsRemaining_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BombsRemaining;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimeRemaining_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TimeRemaining;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -73,9 +77,19 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining = { "BombsRemaining", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, BombsRemaining), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "GameHUDWidget" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/GameHUDWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining = { "TimeRemaining", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, TimeRemaining), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGameHUDWidget_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameHUDWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UGameHUDWidget>::IsAbstract,
@@ -104,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameHUDWidget, 3060402329);
+	IMPLEMENT_CLASS(UGameHUDWidget, 1208500173);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<UGameHUDWidget>()
 	{
 		return UGameHUDWidget::StaticClass();

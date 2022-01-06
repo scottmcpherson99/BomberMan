@@ -8,3 +8,8 @@ void UGameHUDWidget::Tick(float DeltaTime)
 {
 	
 }
+
+void UGameHUDWidget::UpdateTimer(float timer_)
+{
+	TimeRemaining->SetText(FText::AsNumber(timer_));
+}
