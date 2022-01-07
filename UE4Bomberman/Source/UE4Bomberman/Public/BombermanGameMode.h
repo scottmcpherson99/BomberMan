@@ -36,15 +36,25 @@ public:
 
 	void SetCurrentState(EBombermanPlayState newState);
 
+	void SetWinnerText(FString winner_);
+
 protected:
 
 	//widget class to use for our hud screen
 	UPROPERTY(EditAnywhere, Category = "Class Types")
 	TSubclassOf<UUserWidget> HUDWidgetClass;
 
+	//widget class to use for our end screen
+	UPROPERTY(EditAnywhere, Category = "Class Types")
+		TSubclassOf<UUserWidget> GameOverWidgetClass;
+
 	UPROPERTY(VisibleInstanceOnly, Category = "Runtime")
 		class UGameHUDWidget* gameWidget;
 
+	UPROPERTY(VisibleInstanceOnly, Category = "Runtime")
+		class UEndGameWidget* gameOverWidget;
+
+	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Settings", Meta = (BlueprintProtected = "true"))
 		float gameTotalTime;
 
@@ -61,4 +71,9 @@ private:
 
 	//handle any function calls that rely upon changing the playing state
 	void HandleNewState(EBombermanPlayState newState);
+
+	void SetUpWidget();
+
+	//the text that will be displayed to indicate the winner
+	FString winnertext;
 };

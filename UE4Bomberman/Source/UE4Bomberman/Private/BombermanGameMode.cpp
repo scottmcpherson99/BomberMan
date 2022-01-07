@@ -5,8 +5,10 @@
 #include "PlayerCharacter.h"
 #include "Blueprint/UserWidget.h"
 #include "GameHUDWidget.h"
+#include "EndGameWidget.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "Blueprint/WidgetLayoutLibrary.h"
 
 ABombermanGameMode::ABombermanGameMode()
 {
@@ -32,18 +34,12 @@ void ABombermanGameMode::BeginPlay()
 		gameWidget = Cast<UGameHUDWidget>(CreateWidget(GetWorld(), HUDWidgetClass));
 	}
 
-	if (gameWidget != nullptr)
+	if (IsValid(GameOverWidgetClass))
 	{
-		//add the widget to the screen
-		gameWidget->AddToViewport();
-	}
-	else
-	{
-		//widget wasn't found
-		UE_LOG(LogTemp, Warning, TEXT("gameWidget not found!"));
+		gameOverWidget = Cast<UEndGameWidget>(CreateWidget(GetWorld(), GameOverWidgetClass));
 	}
 	
-	
+	SetUpWidget();
 }
 
 void ABombermanGameMode::DecreaseTimer()
@@ -56,6 +52,7 @@ void ABombermanGameMode::DecreaseTimer()
 	if (timeRemaining <= 0)
 	{
 		SetCurrentState(EBombermanPlayState::EGameOver);
+		winnertext = "Draw";
 	}
 }
 
@@ -96,7 +93,59 @@ void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
 
 		//if the game has finished
 	case EBombermanPlayState::EGameOver:
-		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		//UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
 		break;
 	}
+
+	SetUpWidget();
+}
+
+
+void ABombermanGameMode::SetUpWidget()
+{
+	//remove the widgets from the viewport
+	UWidgetLayoutLibrary::RemoveAllWidgets(this);
+
+	//add the appropriate widget to the viewport
+	switch (currentState)
+	{
+	case EBombermanPlayState::EPlaying:
+	
+		if (gameWidget != nullptr)
+		{
+			//add the widget to the screen
+			gameWidget->AddToViewport();
+		}
+		else
+		{
+			//widget wasn't found
+			UE_LOG(LogTemp, Warning, TEXT("gameWidget not found!"));
+		}
+
+		break;
+
+	case EBombermanPlayState::EGameOver:
+
+		//create the widget
+		
+
+		if (gameOverWidget != nullptr)
+		{
+			gameOverWidget->DeclareWinner(winnertext);
+			//add the widget to the screen
+			gameOverWidget->AddToViewport();
+		}
+		else
+		{
+			//widget wasn't found
+			UE_LOG(LogTemp, Warning, TEXT("gameOverWidget not found!"));
+		}
+	}
+
+}
+
+
+void ABombermanGameMode::SetWinnerText(FString winner_)
+{
+	winnertext = winner_;
 }

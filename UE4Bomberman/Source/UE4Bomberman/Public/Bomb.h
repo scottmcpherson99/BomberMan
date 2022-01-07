@@ -47,6 +47,7 @@ protected:
 	
 	void CheckForOverlappingActors();
 
+	
 private:
 	
 public:	
