@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/TextBlock.h"
+#include "Components/Button.h"
 #include "EndGameWidget.generated.h"
 
 /**
@@ -18,6 +19,19 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* WinnerText;
 
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UButton* RestartButton;
+
+	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
+		class UButton* QuitButton;
+
+	virtual void NativeConstruct() override;
+
+	UFUNCTION()
+		void OnRestartClicked();
+
+	UFUNCTION()
+		void OnQuitClicked();
 public:
 	void DeclareWinner(FString winner);
 };

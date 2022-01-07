@@ -80,7 +80,7 @@ void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
 	{
 		//if the game is playing
 	case EBombermanPlayState::EPlaying:
-
+		
 		timeRemaining = gameTotalTime;
 
 		if (world)
@@ -93,7 +93,13 @@ void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
 
 		//if the game has finished
 	case EBombermanPlayState::EGameOver:
-		//UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		APlayerController* PC = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+		if (PC)
+		{
+			PC->bShowMouseCursor = true;
+			PC->bEnableClickEvents = true;
+			PC->bEnableMouseOverEvents = true;
+		}
 		break;
 	}
 
@@ -115,6 +121,7 @@ void ABombermanGameMode::SetUpWidget()
 		{
 			//add the widget to the screen
 			gameWidget->AddToViewport();
+	
 		}
 		else
 		{
@@ -148,4 +155,5 @@ void ABombermanGameMode::SetUpWidget()
 void ABombermanGameMode::SetWinnerText(FString winner_)
 {
 	winnertext = winner_;
+	
 }

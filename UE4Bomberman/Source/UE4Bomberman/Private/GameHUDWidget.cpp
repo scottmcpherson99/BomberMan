@@ -13,3 +13,4 @@ void UGameHUDWidget::UpdateTimer(float timer_)
 {
 	TimeRemaining->SetText(FText::AsNumber(timer_));
 }
+

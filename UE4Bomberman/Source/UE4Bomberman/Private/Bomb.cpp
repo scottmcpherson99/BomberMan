@@ -62,7 +62,7 @@ void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 		{
 			ABombermanGameMode* const gameMode = (ABombermanGameMode*)GetWorld()->GetAuthGameMode();
 
-			gameMode->SetWinnerText("Player 2 wins!");
+			gameMode->SetWinnerText("Player 2");
 			gameMode->SetCurrentState(EBombermanPlayState::EGameOver);
 		}
 	}
