@@ -37,7 +37,16 @@ void ABomb::BeginPlay()
 {
 	Super::BeginPlay();
 	//ExplodeBomb();
-	
+
+	//check for valid world
+	UWorld* const world = GetWorld();
+
+	//explode the bomb
+	if (world)
+	{
+		//decrease the timer by 1 every second
+		world->GetTimerManager().SetTimer(bombTimer, this, &ABomb::ExplodeBomb, 3.0f, false);
+	}
 }
 
 void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherActor)

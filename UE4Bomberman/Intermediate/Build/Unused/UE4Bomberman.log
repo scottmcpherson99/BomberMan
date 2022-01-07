@@ -2,11 +2,11 @@
   Building UE4BombermanEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] BombermanGameMode.cpp
-    [2/4] UE4Editor-UE4Bomberman-0147.lib
-       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0147.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0147.exp
-    [3/4] UE4Editor-UE4Bomberman-0147.dll
-       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0147.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0147.suppressed.exp
+    [1/4] Bomb.cpp
+    [2/4] UE4Editor-UE4Bomberman-0151.lib
+       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0151.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0151.exp
+    [3/4] UE4Editor-UE4Bomberman-0151.dll
+       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0151.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0151.suppressed.exp
     [4/4] UE4BombermanEditor.target
-  Total time in Parallel executor: 5.25 seconds
-  Total execution time: 5.62 seconds
+  Total time in Parallel executor: 2.01 seconds
+  Total execution time: 2.40 seconds

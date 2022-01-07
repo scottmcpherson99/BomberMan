@@ -47,7 +47,8 @@ protected:
 	
 	void CheckForOverlappingActors();
 
-	
+	FTimerHandle bombTimer;
+
 private:
 	
 public:	
