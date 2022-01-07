@@ -39,6 +39,7 @@ void ABombermanGameMode::BeginPlay()
 		gameOverWidget = Cast<UEndGameWidget>(CreateWidget(GetWorld(), GameOverWidgetClass));
 	}
 	
+	winnertext = "Draw";
 	SetUpWidget();
 }
 
@@ -47,12 +48,11 @@ void ABombermanGameMode::DecreaseTimer()
 	//decrease the timer and update this on the UI
 	timeRemaining--;
 	gameWidget->UpdateTimer(timeRemaining);
-
+	if(currentState == EBombermanPlayState::EPlaying)
 	//if the timer has reached 0, exit the game
 	if (timeRemaining <= 0)
 	{
 		SetCurrentState(EBombermanPlayState::EGameOver);
-		winnertext = "Draw";
 	}
 }
 
@@ -94,8 +94,10 @@ void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
 		//if the game has finished
 	case EBombermanPlayState::EGameOver:
 		APlayerController* PC = UGameplayStatics::GetPlayerController(GetWorld(), 0);
+		ACharacter* playerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 		if (PC)
 		{
+			playerCharacter->DisableInput(PC);
 			PC->bShowMouseCursor = true;
 			PC->bEnableClickEvents = true;
 			PC->bEnableMouseOverEvents = true;

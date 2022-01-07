@@ -1797,3 +1797,993 @@ MyBomb_C.ExecuteUbergraph_MyBomb
 [2022.01.07-17.29.51:072][293]AssetCheck: New page: Asset Save: multiple assets
 [2022.01.07-17.29.51:072][293]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/MainLevel_BuiltData.MainLevel_BuiltData
 [2022.01.07-17.29.51:072][293]LogContentValidation: Display: Validating World /Game/Levels/MainLevel.MainLevel
+[2022.01.07-19.07.43:383][370]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{b75432b7-7a02-4994-b749-d0ecb8f03802}.
+[2022.01.07-19.07.43:384][370]LogAudioMixer: Resetting audio stream to device id 
+[2022.01.07-19.07.43:385][370]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-19.07.43:385][370]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-20.29.08:267][910]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.01.07-21.48.25:783][ 75]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{0ca1a3ef-c888-4e00-8922-f3674163f69b}.
+[2022.01.07-21.48.25:783][ 75]LogAudioMixer: Resetting audio stream to device id 
+[2022.01.07-21.48.25:818][ 75]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-21.48.25:818][ 75]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.01.19:100][100]LogHotReload: New module detected: UE4Editor-UE4Bomberman-0138.dll
+[2022.01.07-22.01.21:445][108]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.07-22.01.21:682][108]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.01.21:701][108]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0010 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.01.21:704][108]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.01.21:828][108]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.01.21:831][108]Display: HotReload took  0.4s.
+[2022.01.07-22.01.28:322][225]Candidate modules for hot reload:
+[2022.01.07-22.01.28:322][225]  UE4Bomberman
+[2022.01.07-22.01.28:322][225]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Bomberman,1226 UE4BombermanEditor Win64 Development -Project="D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject" "D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject"  -IgnoreJunk]
+[2022.01.07-22.01.28:323][225]Warning: Starting HotReload took  0.0s.
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: New page: Compilation - 7 Jan 2022, 22:01:29
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\BomberMan).
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: Building UE4BombermanEditor...
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.07-22.01.29:517][290]CompilerResultsLog:   [1/3] UE4Editor-UE4Bomberman-1226.lib
+[2022.01.07-22.01.29:517][290]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1226.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1226.exp
+[2022.01.07-22.01.29:517][290]CompilerResultsLog:   [2/3] UE4Editor-UE4Bomberman-1226.dll
+[2022.01.07-22.01.29:517][290]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1226.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1226.suppressed.exp
+[2022.01.07-22.01.29:517][290]CompilerResultsLog:   [3/3] UE4BombermanEditor.target
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: Total time in Parallel executor: 0.73 seconds
+[2022.01.07-22.01.29:517][290]CompilerResultsLog: Total execution time: 1.15 seconds
+[2022.01.07-22.01.29:517][290]LogMainFrame: MainFrame: Module compiling took 1.198 seconds
+[2022.01.07-22.01.29:563][290]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.01.29:575][290]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0003 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.01.29:579][290]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.01.29:662][290]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0074 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.01.29:662][290]Display: HotReload took  1.4s.
+[2022.01.07-22.01.31:537][455]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.07-22.01.31:544][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.07-22.01.31:544][455]PIE: New page: PIE session: MainLevel (7 Jan 2022, 22:01:31)
+[2022.01.07-22.01.31:578][455]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.01.31:584][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005607s)
+[2022.01.07-22.01.31:586][455]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.01.31:586][455]LogPlayLevel: PIE: World Init took: (0.001713s)
+[2022.01.07-22.01.31:586][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.007620s)
+[2022.01.07-22.01.31:744][455]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2022.01.07-22.01.31:747][455]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.07-22.01.31:747][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.07-22.01.31:747][455]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.07-22.01.31:747][455]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.07-22.01.31:761][455]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-22.01.31:761][455]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.01.31:783][455]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.07-22.01.31:785][455]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.07-22.01.31:785][455]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.07-22.01.31:785][455]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.07-22.01.31:786][455]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.07-22.01.31:786][455]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.07-22.01.31:786][455]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.07-22.01.31:797][455]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.07-22.01.31:797][455]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.07-22.01.31:797][455]LogInit: FAudioDevice initialized.
+[2022.01.07-22.01.31:797][455]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainLevel'.
+[2022.01.07-22.01.31:809][455]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.01.31:814][455]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.01.31
+[2022.01.07-22.01.31:814][455]LogWorld: Bringing up level for play took: 0.003232
+[2022.01.07-22.01.31:814][455]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.01.07-22.01.31:816][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.31:816][455]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.01.31:816][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.31:817][455]PIE: Server logged in
+[2022.01.07-22.01.31:817][455]PIE: Play in editor total start time 0.274 seconds.
+[2022.01.07-22.01.32:909][575]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.01.35:904][924]LogTemp: Display: Speecfd.
+[2022.01.07-22.01.35:905][924]LogTemp: Display: Speed dropped.
+[2022.01.07-22.01.35:905][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.35:905][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.35:905][924]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyBomb_C.ExecuteUbergraph_MyBomb
+
+[2022.01.07-22.01.36:026][924]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.121 s
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: === Handled ensure: ===
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: 
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: 
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: Stack: 
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fba8629 UE4Editor-UE4Bomberman-1226.dll!<lambda_141665ca91f479c33d12e161297f781b>::operator()() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fb98ad1 UE4Editor-UE4Bomberman-1226.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fb98d62 UE4Editor-UE4Bomberman-1226.dll!UEndGameWidget::NativeConstruct() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\EndGameWidget.cpp:15]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdee0a238a UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdedfc7b55 UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fb9726a UE4Editor-UE4Bomberman-1226.dll!ABombermanGameMode::HandleNewState() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\BombermanGameMode.cpp:108]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fb94baa UE4Editor-UE4Bomberman-1226.dll!ABomb::OnOverlapDestroy() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:69]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fb949e7 UE4Editor-UE4Bomberman-1226.dll!ABomb::CheckForOverlappingActors() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:88]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe4fb94a2e UE4Editor-UE4Bomberman-1226.dll!ABomb::ExplodeBomb() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:105]
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdefb98176 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb22fd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb1704 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb0e63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffddfd2c435 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde0649988 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde0628f71 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffddfd43168 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffddfd432ea UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffddfd0f78d UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde0ef297e UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde0efb56f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaecdc UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaf0ce UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdeffc08fd UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde0f18464 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde0f1edaa UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde063ad8f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffde06455f7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffdde569423 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffddee850e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ff64f9f9bc2 UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1117c UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1125a UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ff64fa252bd UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ff64fa27fea UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe89917034 KERNEL32.DLL!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: [Callstack] 0x00007ffe8b7a2651 ntdll.dll!UnknownFunction []
+[2022.01.07-22.01.36:026][924]LogOutputDevice: Error: 
+[2022.01.07-22.01.36:227][924]LogStats:             FDebug::EnsureFailed -  0.322 s
+[2022.01.07-22.01.40:488][435]LogNet: Browse: /Game/Levels/MainLevel
+[2022.01.07-22.01.40:489][435]LogLoad: LoadMap: /Game/Levels/MainLevel
+[2022.01.07-22.01.40:489][435]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.01.40:489][435]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.01.40:489][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.01.40:540][435]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.01.40:580][435]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2022.01.07-22.01.40:582][435]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.01.40:587][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004854s)
+[2022.01.07-22.01.40:587][435]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.01.40:587][435]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2022.01.07-22.01.40:587][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005819s)
+[2022.01.07-22.01.40:587][435]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainLevel'.
+[2022.01.07-22.01.40:587][435]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.01.40:589][435]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.01.40
+[2022.01.07-22.01.40:589][435]LogWorld: Bringing up level for play took: 0.001572
+[2022.01.07-22.01.40:590][435]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.07-22.01.40:590][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.40:590][435]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.01.40:591][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.40:591][435]LogLoad: Took 0.102183 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainLevel)
+[2022.01.07-22.01.41:739][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.41:739][566]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.01.41:739][566]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.01.41:740][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.01.41:744][566]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.07-22.01.41:747][566]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.01.41:767][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.01.41:768][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.01.41:768][566]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.01.41:785][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.01.07-22.01.41:806][568]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.01.07-22.02.40:882][863]LogHotReload: New module detected: UE4Editor-UE4Bomberman-0140.dll
+[2022.01.07-22.02.41:558][866]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.07-22.02.41:617][866]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.02.41:629][866]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.02.41:633][866]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.02.41:707][866]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0064 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.02.41:710][866]Display: HotReload took  0.2s.
+[2022.01.07-22.02.46:781][ 24]Candidate modules for hot reload:
+[2022.01.07-22.02.46:781][ 24]  UE4Bomberman
+[2022.01.07-22.02.46:781][ 24]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Bomberman,5542 UE4BombermanEditor Win64 Development -Project="D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject" "D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject"  -IgnoreJunk]
+[2022.01.07-22.02.46:782][ 24]Warning: Starting HotReload took  0.0s.
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: New page: Compilation - 7 Jan 2022, 22:02:47
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\BomberMan).
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: Building UE4BombermanEditor...
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog:   [1/3] UE4Editor-UE4Bomberman-5542.lib
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-5542.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-5542.exp
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog:   [2/3] UE4Editor-UE4Bomberman-5542.dll
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-5542.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-5542.suppressed.exp
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog:   [3/3] UE4BombermanEditor.target
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: Total time in Parallel executor: 0.73 seconds
+[2022.01.07-22.02.47:973][ 99]CompilerResultsLog: Total execution time: 1.12 seconds
+[2022.01.07-22.02.47:973][ 99]LogMainFrame: MainFrame: Module compiling took 1.195 seconds
+[2022.01.07-22.02.48:018][ 99]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.02.48:029][ 99]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.02.48:033][ 99]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.02.48:115][ 99]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0064 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.02.48:116][ 99]Display: HotReload took  1.3s.
+[2022.01.07-22.02.49:012][176]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.07-22.02.49:017][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.07-22.02.49:017][176]PIE: New page: PIE session: MainLevel (7 Jan 2022, 22:02:49)
+[2022.01.07-22.02.49:038][176]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.02.49:042][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004292s)
+[2022.01.07-22.02.49:043][176]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.02.49:043][176]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2022.01.07-22.02.49:043][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005051s)
+[2022.01.07-22.02.49:111][176]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.01.07-22.02.49:113][176]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.07-22.02.49:113][176]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.07-22.02.49:113][176]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.07-22.02.49:113][176]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.07-22.02.49:115][176]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-22.02.49:115][176]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.02.49:140][176]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.07-22.02.49:141][176]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.07-22.02.49:141][176]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.07-22.02.49:141][176]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.07-22.02.49:141][176]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.07-22.02.49:141][176]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.07-22.02.49:141][176]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.07-22.02.49:151][176]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.07-22.02.49:151][176]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.07-22.02.49:151][176]LogInit: FAudioDevice initialized.
+[2022.01.07-22.02.49:151][176]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainLevel'.
+[2022.01.07-22.02.49:156][176]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.02.49:159][176]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.02.49
+[2022.01.07-22.02.49:159][176]LogWorld: Bringing up level for play took: 0.002184
+[2022.01.07-22.02.49:159][176]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.01.07-22.02.49:161][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.49:161][176]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.02.49:161][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.49:161][176]PIE: Server logged in
+[2022.01.07-22.02.49:162][176]PIE: Play in editor total start time 0.146 seconds.
+[2022.01.07-22.02.51:728][450]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.02.54:723][801]LogTemp: Display: Speecfd.
+[2022.01.07-22.02.54:723][801]LogTemp: Display: No Drop.
+[2022.01.07-22.02.54:723][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.54:723][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.54:724][801]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyBomb_C.ExecuteUbergraph_MyBomb
+
+[2022.01.07-22.02.54:839][801]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.116 s
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: === Handled ensure: ===
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: 
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: 
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: Stack: 
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: [Callstack] 0x00007ffe50598629 UE4Editor-UE4Bomberman-5542.dll!<lambda_141665ca91f479c33d12e161297f781b>::operator()() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: [Callstack] 0x00007ffe50588ad1 UE4Editor-UE4Bomberman-5542.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: [Callstack] 0x00007ffe50588d62 UE4Editor-UE4Bomberman-5542.dll!UEndGameWidget::NativeConstruct() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\EndGameWidget.cpp:15]
+[2022.01.07-22.02.54:839][801]LogOutputDevice: Error: [Callstack] 0x00007ffdee0a238a UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdedfc7b55 UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffe5058726a UE4Editor-UE4Bomberman-5542.dll!ABombermanGameMode::HandleNewState() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\BombermanGameMode.cpp:108]
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffe50584baa UE4Editor-UE4Bomberman-5542.dll!ABomb::OnOverlapDestroy() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:69]
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffe505849e7 UE4Editor-UE4Bomberman-5542.dll!ABomb::CheckForOverlappingActors() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:88]
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffe50584a2e UE4Editor-UE4Bomberman-5542.dll!ABomb::ExplodeBomb() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:105]
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdefb98176 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb22fd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb1704 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb0e63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffddfd2c435 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde0649988 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde0628f71 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffddfd43168 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffddfd432ea UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffddfd0f78d UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde0ef297e UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde0efb56f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaecdc UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaf0ce UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdeffc08fd UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde0f18464 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde0f1edaa UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde063ad8f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffde06455f7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffdde569423 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffddee850e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ff64f9f9bc2 UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1117c UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1125a UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ff64fa252bd UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ff64fa27fea UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffe89917034 KERNEL32.DLL!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: [Callstack] 0x00007ffe8b7a2651 ntdll.dll!UnknownFunction []
+[2022.01.07-22.02.54:840][801]LogOutputDevice: Error: 
+[2022.01.07-22.02.54:976][801]LogStats:             FDebug::EnsureFailed -  0.252 s
+[2022.01.07-22.02.58:272][190]LogNet: Browse: /Game/Levels/MainLevel
+[2022.01.07-22.02.58:272][190]LogLoad: LoadMap: /Game/Levels/MainLevel
+[2022.01.07-22.02.58:272][190]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.02.58:273][190]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.02.58:273][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.02.58:329][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.02.58:348][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.01.07-22.02.58:349][190]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.02.58:353][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004276s)
+[2022.01.07-22.02.58:354][190]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.02.58:354][190]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2022.01.07-22.02.58:354][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005023s)
+[2022.01.07-22.02.58:354][190]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainLevel'.
+[2022.01.07-22.02.58:354][190]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.02.58:356][190]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.02.58
+[2022.01.07-22.02.58:357][190]LogWorld: Bringing up level for play took: 0.001598
+[2022.01.07-22.02.58:357][190]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.07-22.02.58:358][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.58:358][190]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.02.58:358][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.58:358][190]LogLoad: Took 0.085774 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainLevel)
+[2022.01.07-22.02.58:709][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.58:709][226]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.02.58:710][226]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.02.58:710][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.02.58:716][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.07-22.02.58:720][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.02.58:740][226]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.02.58:740][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.02.58:741][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.02.58:766][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.02.58:769][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.01.07-22.02.58:780][227]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.01.07-22.03.12:992][674]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.01.07-22.03.13:469][675]LogSlate: Took 0.004559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.01.07-22.03.52:541][217]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.01.07-22.03.52:542][217]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainLevel' took 0.028
+[2022.01.07-22.03.52:544][217]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_PlayerCharacter] ([1] browsable assets)...
+[2022.01.07-22.03.52:560][217]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter]
+[2022.01.07-22.03.52:560][217]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_PlayerCharacter]
+[2022.01.07-22.03.52:560][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCharacter" FILE="D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/Autosaves/Game/BP_PlayerCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.01.07-22.03.52:570][217]LogSavePackage: Moving 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/BP_PlayerCharacter_Auto16285276045B5A0C9D9679AB8F7D57A2A.tmp' to 'D:/Unreal Projects/BomberMan/UE4Bomberman/Saved/Autosaves/Game/BP_PlayerCharacter_Auto1.uasset'
+[2022.01.07-22.03.52:571][217]LogFileHelpers: Auto-saving content packages took 0.028
+[2022.01.07-22.03.54:447][223]LogHotReload: New module detected: UE4Editor-UE4Bomberman-0142.dll
+[2022.01.07-22.03.54:789][225]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.07-22.03.54:853][225]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.03.54:865][225]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.03.54:870][225]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.03.54:946][225]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0061 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.03.54:952][225]Display: HotReload took  0.2s.
+[2022.01.07-22.04.01:655][318]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.07-22.04.01:660][318]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.01.07-22.04.01:662][318]LogPlayLevel: [PlayLevel] Compiling BP_PlayerCharacter before play...
+[2022.01.07-22.04.01:747][318]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2022.01.07-22.04.01:748][318]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2022.01.07-22.04.01:748][318]PIE: New page: PIE session: MainLevel (7 Jan 2022, 22:04:01)
+[2022.01.07-22.04.01:748][318]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.04.01:752][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004567s)
+[2022.01.07-22.04.01:753][318]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.04.01:753][318]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2022.01.07-22.04.01:753][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005303s)
+[2022.01.07-22.04.01:780][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2022.01.07-22.04.01:781][318]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.07-22.04.01:781][318]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.07-22.04.01:781][318]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.07-22.04.01:781][318]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.07-22.04.01:783][318]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-22.04.01:783][318]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.04.01:804][318]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.07-22.04.01:804][318]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.07-22.04.01:805][318]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.07-22.04.01:805][318]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.07-22.04.01:805][318]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.07-22.04.01:805][318]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.07-22.04.01:805][318]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.07-22.04.01:814][318]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.07-22.04.01:814][318]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.07-22.04.01:814][318]LogInit: FAudioDevice initialized.
+[2022.01.07-22.04.01:814][318]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainLevel'.
+[2022.01.07-22.04.01:819][318]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.04.01:821][318]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.04.01
+[2022.01.07-22.04.01:821][318]LogWorld: Bringing up level for play took: 0.002194
+[2022.01.07-22.04.01:822][318]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.01.07-22.04.01:823][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.01:823][318]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.04.01:823][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.01:824][318]PIE: Server logged in
+[2022.01.07-22.04.01:825][318]PIE: Play in editor total start time 0.165 seconds.
+[2022.01.07-22.04.02:892][441]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.04.05:884][800]LogTemp: Display: Speecfd.
+[2022.01.07-22.04.05:884][800]LogTemp: Display: No Drop.
+[2022.01.07-22.04.05:884][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.05:884][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.05:884][800]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyBomb_C.ExecuteUbergraph_MyBomb
+
+[2022.01.07-22.04.05:981][800]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.097 s
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: === Handled ensure: ===
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: 
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: 
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: Stack: 
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508e8629 UE4Editor-UE4Bomberman-0142.dll!<lambda_141665ca91f479c33d12e161297f781b>::operator()() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508d8ad1 UE4Editor-UE4Bomberman-0142.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508d8d62 UE4Editor-UE4Bomberman-0142.dll!UEndGameWidget::NativeConstruct() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\EndGameWidget.cpp:15]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffdee0a238a UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffdedfc7b55 UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508d7266 UE4Editor-UE4Bomberman-0142.dll!ABombermanGameMode::HandleNewState() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\BombermanGameMode.cpp:108]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508d4baa UE4Editor-UE4Bomberman-0142.dll!ABomb::OnOverlapDestroy() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:69]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508d49e7 UE4Editor-UE4Bomberman-0142.dll!ABomb::CheckForOverlappingActors() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:88]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffe508d4a2e UE4Editor-UE4Bomberman-0142.dll!ABomb::ExplodeBomb() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:105]
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.04.05:981][800]LogOutputDevice: Error: [Callstack] 0x00007ffdefb98176 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb22fd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb1704 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb0e63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffddfd2c435 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde0649988 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde0628f71 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffddfd43168 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffddfd432ea UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffddfd0f78d UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde0ef297e UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde0efb56f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaecdc UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaf0ce UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdeffc08fd UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde0f18464 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde0f1edaa UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde063ad8f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffde06455f7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffdde569423 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffddee850e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ff64f9f9bc2 UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1117c UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1125a UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ff64fa252bd UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ff64fa27fea UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffe89917034 KERNEL32.DLL!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: [Callstack] 0x00007ffe8b7a2651 ntdll.dll!UnknownFunction []
+[2022.01.07-22.04.05:982][800]LogOutputDevice: Error: 
+[2022.01.07-22.04.05:985][800]LogStats:             FDebug::EnsureFailed -  0.101 s
+[2022.01.07-22.04.07:924][ 33]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.04.11:657][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.12:658][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.13:482][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.13:483][700]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.04.13:529][700]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.04.13:529][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.04.13:539][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.07-22.04.13:544][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.04.13:567][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.04.13:568][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.04.13:569][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.04.13:587][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.01.07-22.04.13:624][701]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.01.07-22.06.53:143][273]LogHotReload: New module detected: UE4Editor-UE4Bomberman-0143.dll
+[2022.01.07-22.06.53:824][276]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.07-22.06.53:898][276]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.06.53:910][276]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.06.53:913][276]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.06.54:014][276]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0069 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.06.54:016][276]Display: HotReload took  0.2s.
+[2022.01.07-22.06.58:859][375]Candidate modules for hot reload:
+[2022.01.07-22.06.58:859][375]  UE4Bomberman
+[2022.01.07-22.06.58:859][375]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Bomberman,710 UE4BombermanEditor Win64 Development -Project="D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject" "D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject"  -IgnoreJunk]
+[2022.01.07-22.06.58:860][375]Warning: Starting HotReload took  0.0s.
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: New page: Compilation - 7 Jan 2022, 22:07:00
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\BomberMan).
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: Building UE4BombermanEditor...
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.07-22.07.00:235][473]CompilerResultsLog:   [1/3] UE4Editor-UE4Bomberman-0710.lib
+[2022.01.07-22.07.00:235][473]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0710.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0710.exp
+[2022.01.07-22.07.00:235][473]CompilerResultsLog:   [2/3] UE4Editor-UE4Bomberman-0710.dll
+[2022.01.07-22.07.00:235][473]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0710.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0710.suppressed.exp
+[2022.01.07-22.07.00:235][473]CompilerResultsLog:   [3/3] UE4BombermanEditor.target
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: Total time in Parallel executor: 0.93 seconds
+[2022.01.07-22.07.00:235][473]CompilerResultsLog: Total execution time: 1.32 seconds
+[2022.01.07-22.07.00:235][473]LogMainFrame: MainFrame: Module compiling took 1.405 seconds
+[2022.01.07-22.07.00:247][473]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0080 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.07.00:247][473]Display: HotReload took  1.4s.
+[2022.01.07-22.07.00:900][523]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.07-22.07.00:905][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.07-22.07.00:905][523]PIE: New page: PIE session: MainLevel (7 Jan 2022, 22:07:00)
+[2022.01.07-22.07.00:928][523]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.07.00:934][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005681s)
+[2022.01.07-22.07.00:935][523]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.07.00:935][523]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2022.01.07-22.07.00:935][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.006871s)
+[2022.01.07-22.07.01:012][523]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2022.01.07-22.07.01:013][523]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.07-22.07.01:013][523]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.07-22.07.01:013][523]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.07-22.07.01:013][523]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.07-22.07.01:015][523]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-22.07.01:015][523]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.07.01:036][523]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.07-22.07.01:036][523]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.07-22.07.01:036][523]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.07-22.07.01:036][523]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.07-22.07.01:037][523]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.07-22.07.01:037][523]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.07-22.07.01:037][523]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.07-22.07.01:047][523]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.07-22.07.01:047][523]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.07-22.07.01:047][523]LogInit: FAudioDevice initialized.
+[2022.01.07-22.07.01:047][523]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainLevel'.
+[2022.01.07-22.07.01:057][523]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.07.01:060][523]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.07.01
+[2022.01.07-22.07.01:060][523]LogWorld: Bringing up level for play took: 0.002470
+[2022.01.07-22.07.01:060][523]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.01.07-22.07.01:062][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.01:062][523]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.07.01:062][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.01:062][523]PIE: Server logged in
+[2022.01.07-22.07.01:063][523]PIE: Play in editor total start time 0.158 seconds.
+[2022.01.07-22.07.02:210][651]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.07.05:201][ 10]LogTemp: Display: Speecfd.
+[2022.01.07-22.07.05:201][ 10]LogTemp: Display: No Drop.
+[2022.01.07-22.07.05:201][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.05:202][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.05:202][ 10]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyBomb_C.ExecuteUbergraph_MyBomb
+
+[2022.01.07-22.07.05:303][ 10]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.101 s
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: === Handled ensure: ===
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: 
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: 
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: Stack: 
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507f8629 UE4Editor-UE4Bomberman-0143.dll!<lambda_141665ca91f479c33d12e161297f781b>::operator()() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507e8ae1 UE4Editor-UE4Bomberman-0143.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507e8d72 UE4Editor-UE4Bomberman-0143.dll!UEndGameWidget::NativeConstruct() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\EndGameWidget.cpp:15]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdee0a238a UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdedfc7b55 UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507e7281 UE4Editor-UE4Bomberman-0143.dll!ABombermanGameMode::HandleNewState() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\BombermanGameMode.cpp:109]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507e4baa UE4Editor-UE4Bomberman-0143.dll!ABomb::OnOverlapDestroy() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:69]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507e49e7 UE4Editor-UE4Bomberman-0143.dll!ABomb::CheckForOverlappingActors() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:88]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe507e4a2e UE4Editor-UE4Bomberman-0143.dll!ABomb::ExplodeBomb() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:105]
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdefb98176 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb22fd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb1704 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb0e63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffddfd2c435 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde0649988 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde0628f71 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffddfd43168 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffddfd432ea UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffddfd0f78d UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde0ef297e UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde0efb56f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaecdc UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaf0ce UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdeffc08fd UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde0f18464 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde0f1edaa UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde063ad8f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffde06455f7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffdde569423 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffddee850e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff64f9f9bc2 UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1117c UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1125a UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff64fa252bd UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ff64fa27fea UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe89917034 KERNEL32.DLL!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: [Callstack] 0x00007ffe8b7a2651 ntdll.dll!UnknownFunction []
+[2022.01.07-22.07.05:303][ 10]LogOutputDevice: Error: 
+[2022.01.07-22.07.05:313][ 10]LogStats:             FDebug::EnsureFailed -  0.111 s
+[2022.01.07-22.07.08:328][365]LogNet: Browse: /Game/Levels/MainLevel
+[2022.01.07-22.07.08:328][365]LogLoad: LoadMap: /Game/Levels/MainLevel
+[2022.01.07-22.07.08:328][365]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.07.08:329][365]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.07.08:329][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.07.08:384][365]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.07.08:400][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.01.07-22.07.08:400][365]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.07.08:406][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005210s)
+[2022.01.07-22.07.08:406][365]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.07.08:406][365]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2022.01.07-22.07.08:406][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.006005s)
+[2022.01.07-22.07.08:406][365]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainLevel'.
+[2022.01.07-22.07.08:406][365]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.07.08:409][365]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.07.08
+[2022.01.07-22.07.08:409][365]LogWorld: Bringing up level for play took: 0.001566
+[2022.01.07-22.07.08:409][365]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.07-22.07.08:410][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.08:410][365]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.07.08:410][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.08:410][365]LogLoad: Took 0.081390 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainLevel)
+[2022.01.07-22.07.15:023][154]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.07.18:015][513]LogTemp: Display: Speecfd.
+[2022.01.07-22.07.18:015][513]LogTemp: Display: No Drop.
+[2022.01.07-22.07.18:332][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.19:332][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.20:332][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.20:815][849]LogNet: Browse: /Game/Levels/MainLevel
+[2022.01.07-22.07.20:816][849]LogLoad: LoadMap: /Game/Levels/MainLevel
+[2022.01.07-22.07.20:816][849]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.07.20:816][849]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.07.20:816][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.07.20:862][849]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.07.20:866][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.01.07-22.07.20:867][849]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.07.20:871][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004473s)
+[2022.01.07-22.07.20:872][849]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.07.20:872][849]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2022.01.07-22.07.20:872][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005306s)
+[2022.01.07-22.07.20:872][849]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainLevel'.
+[2022.01.07-22.07.20:872][849]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.07.20:874][849]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.07.20
+[2022.01.07-22.07.20:874][849]LogWorld: Bringing up level for play took: 0.001349
+[2022.01.07-22.07.20:875][849]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.07-22.07.20:875][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.20:875][849]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.07.20:875][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.20:876][849]LogLoad: Took 0.059743 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainLevel)
+[2022.01.07-22.07.25:112][356]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.07.28:104][715]LogTemp: Display: Speecfd.
+[2022.01.07-22.07.28:104][715]LogTemp: Display: Speed dropped.
+[2022.01.07-22.07.28:104][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.30:821][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.31:821][161]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.32:821][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.33:171][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.33:171][323]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.07.33:218][323]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.07.33:218][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.07.33:223][323]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.07-22.07.33:228][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.07.33:252][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.07.33:252][323]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.07.33:253][323]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.07.33:271][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.01.07-22.07.33:307][324]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.01.07-22.08.34:689][676]LogHotReload: New module detected: UE4Editor-UE4Bomberman-0145.dll
+[2022.01.07-22.08.35:364][679]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.07-22.08.35:427][679]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.08.35:440][679]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.08.35:444][679]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.08.35:542][679]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0062 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.08.35:545][679]Display: HotReload took  0.2s.
+[2022.01.07-22.08.47:476][815]Candidate modules for hot reload:
+[2022.01.07-22.08.47:476][815]  UE4Bomberman
+[2022.01.07-22.08.47:476][815]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Bomberman,1619 UE4BombermanEditor Win64 Development -Project="D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject" "D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject"  -IgnoreJunk]
+[2022.01.07-22.08.47:478][815]Warning: Starting HotReload took  0.0s.
+[2022.01.07-22.08.48:077][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: New page: Compilation - 7 Jan 2022, 22:08:48
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\BomberMan).
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: Building UE4BombermanEditor...
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.07-22.08.48:668][886]CompilerResultsLog:   [1/3] UE4Editor-UE4Bomberman-1619.lib
+[2022.01.07-22.08.48:668][886]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1619.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1619.exp
+[2022.01.07-22.08.48:668][886]CompilerResultsLog:   [2/3] UE4Editor-UE4Bomberman-1619.dll
+[2022.01.07-22.08.48:668][886]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1619.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-1619.suppressed.exp
+[2022.01.07-22.08.48:668][886]CompilerResultsLog:   [3/3] UE4BombermanEditor.target
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: Total time in Parallel executor: 0.72 seconds
+[2022.01.07-22.08.48:668][886]CompilerResultsLog: Total execution time: 1.14 seconds
+[2022.01.07-22.08.48:668][886]LogMainFrame: MainFrame: Module compiling took 1.195 seconds
+[2022.01.07-22.08.48:731][886]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.08.48:741][886]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.08.48:747][886]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.08.48:853][886]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0062 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.08.48:853][886]Display: HotReload took  1.4s.
+[2022.01.07-22.08.49:799][957]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.07-22.08.49:803][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.07-22.08.49:803][957]PIE: New page: PIE session: MainLevel (7 Jan 2022, 22:08:49)
+[2022.01.07-22.08.49:828][957]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.08.49:833][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004469s)
+[2022.01.07-22.08.49:833][957]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.08.49:833][957]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2022.01.07-22.08.49:833][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005326s)
+[2022.01.07-22.08.49:912][957]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2022.01.07-22.08.49:913][957]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.07-22.08.49:913][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.07-22.08.49:913][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.07-22.08.49:914][957]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.07-22.08.49:914][957]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.07-22.08.49:915][957]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-22.08.49:915][957]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.08.49:937][957]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.07-22.08.49:937][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.07-22.08.49:937][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.07-22.08.49:937][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.07-22.08.49:937][957]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.07-22.08.49:938][957]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.07-22.08.49:938][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.07-22.08.49:947][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.07-22.08.49:947][957]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.07-22.08.49:947][957]LogInit: FAudioDevice initialized.
+[2022.01.07-22.08.49:947][957]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainLevel'.
+[2022.01.07-22.08.49:952][957]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.08.49:954][957]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.08.49
+[2022.01.07-22.08.49:954][957]LogWorld: Bringing up level for play took: 0.002021
+[2022.01.07-22.08.49:954][957]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.01.07-22.08.49:956][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.08.49:956][957]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.08.49:956][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.08.49:956][957]PIE: Server logged in
+[2022.01.07-22.08.49:957][957]PIE: Play in editor total start time 0.154 seconds.
+[2022.01.07-22.08.51:745][170]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.08.54:743][523]LogTemp: Display: Speecfd.
+[2022.01.07-22.08.54:743][523]LogTemp: Display: No Drop.
+[2022.01.07-22.08.55:335][594]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.08.58:329][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.08.58:329][953]LogTemp: Display: Speecfd.
+[2022.01.07-22.08.58:329][953]LogTemp: Display: No Drop.
+[2022.01.07-22.08.58:329][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.08.58:329][953]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyBomb_C.ExecuteUbergraph_MyBomb
+
+[2022.01.07-22.08.58:442][953]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.113 s
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: === Handled ensure: ===
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: 
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: 
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: Stack: 
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501f8629 UE4Editor-UE4Bomberman-1619.dll!<lambda_141665ca91f479c33d12e161297f781b>::operator()() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501e8ae1 UE4Editor-UE4Bomberman-1619.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2022.01.07-22.08.58:442][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501e8d72 UE4Editor-UE4Bomberman-1619.dll!UEndGameWidget::NativeConstruct() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\EndGameWidget.cpp:15]
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdee0a238a UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdedfc7b55 UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501e7281 UE4Editor-UE4Bomberman-1619.dll!ABombermanGameMode::HandleNewState() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\BombermanGameMode.cpp:109]
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501e4baa UE4Editor-UE4Bomberman-1619.dll!ABomb::OnOverlapDestroy() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:69]
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501e49e7 UE4Editor-UE4Bomberman-1619.dll!ABomb::CheckForOverlappingActors() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:88]
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffe501e4a2e UE4Editor-UE4Bomberman-1619.dll!ABomb::ExplodeBomb() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:105]
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdefb98176 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb22fd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb1704 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb0e63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffddfd2c435 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde0649988 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde0628f71 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffddfd43168 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffddfd432ea UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffddfd0f78d UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde0ef297e UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde0efb56f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaecdc UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaf0ce UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdeffc08fd UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde0f18464 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde0f1edaa UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde063ad8f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffde06455f7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffdde569423 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffddee850e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ff64f9f9bc2 UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1117c UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1125a UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ff64fa252bd UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ff64fa27fea UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffe89917034 KERNEL32.DLL!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: [Callstack] 0x00007ffe8b7a2651 ntdll.dll!UnknownFunction []
+[2022.01.07-22.08.58:443][953]LogOutputDevice: Error: 
+[2022.01.07-22.08.58:453][953]LogStats:             FDebug::EnsureFailed -  0.123 s
+[2022.01.07-22.09.03:200][523]LogNet: Browse: /Game/Levels/MainLevel
+[2022.01.07-22.09.03:200][523]LogLoad: LoadMap: /Game/Levels/MainLevel
+[2022.01.07-22.09.03:200][523]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.09.03:200][523]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.09.03:201][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.09.03:261][523]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.09.03:282][523]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.01.07-22.09.03:282][523]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.09.03:287][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005050s)
+[2022.01.07-22.09.03:288][523]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.09.03:288][523]LogPlayLevel: PIE: World Init took: (0.000949s)
+[2022.01.07-22.09.03:288][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.006148s)
+[2022.01.07-22.09.03:288][523]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainLevel'.
+[2022.01.07-22.09.03:289][523]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.09.03:291][523]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.09.03
+[2022.01.07-22.09.03:292][523]LogWorld: Bringing up level for play took: 0.002084
+[2022.01.07-22.09.03:292][523]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.07-22.09.03:293][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.09.03:293][523]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.09.03:293][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.09.03:294][523]LogLoad: Took 0.093336 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainLevel)
+[2022.01.07-22.09.08:850][187]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.09.11:842][546]LogTemp: Display: Speecfd.
+[2022.01.07-22.09.11:842][546]LogTemp: Display: Speed dropped.
+[2022.01.07-22.09.13:200][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.09.24:994][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.09.25:006][123]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.09.25:038][123]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.09.25:038][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.09.25:043][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.07-22.09.25:056][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.09.25:078][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.09.25:079][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.09.25:079][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.09.25:098][123]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.01.07-22.09.25:152][124]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.01.07-22.10.05:544][315]LogHotReload: New module detected: UE4Editor-UE4Bomberman-0147.dll
+[2022.01.07-22.10.06:222][318]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.07-22.10.06:281][318]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.10.06:292][318]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.10.06:296][318]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.10.06:394][318]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0068 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.10.06:397][318]Display: HotReload took  0.2s.
+[2022.01.07-22.10.10:486][444]Candidate modules for hot reload:
+[2022.01.07-22.10.10:486][444]  UE4Bomberman
+[2022.01.07-22.10.10:486][444]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UE4Bomberman,7913 UE4BombermanEditor Win64 Development -Project="D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject" "D:/Unreal Projects/BomberMan/UE4Bomberman/UE4Bomberman.uproject"  -IgnoreJunk]
+[2022.01.07-22.10.10:487][444]Warning: Starting HotReload took  0.0s.
+[2022.01.07-22.10.11:757][520]CompilerResultsLog: New page: Compilation - 7 Jan 2022, 22:10:11
+[2022.01.07-22.10.11:757][520]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\BomberMan).
+[2022.01.07-22.10.11:757][520]CompilerResultsLog: Building UE4BombermanEditor...
+[2022.01.07-22.10.11:757][520]CompilerResultsLog: Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.07-22.10.11:757][520]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.01.07-22.10.11:757][520]CompilerResultsLog:   [1/3] UE4Editor-UE4Bomberman-7913.lib
+[2022.01.07-22.10.11:757][520]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-7913.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-7913.exp
+[2022.01.07-22.10.11:758][520]CompilerResultsLog:   [2/3] UE4Editor-UE4Bomberman-7913.dll
+[2022.01.07-22.10.11:758][520]CompilerResultsLog:      Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-7913.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-7913.suppressed.exp
+[2022.01.07-22.10.11:758][520]CompilerResultsLog:   [3/3] UE4BombermanEditor.target
+[2022.01.07-22.10.11:758][520]CompilerResultsLog: Total time in Parallel executor: 0.72 seconds
+[2022.01.07-22.10.11:758][520]CompilerResultsLog: Total execution time: 1.22 seconds
+[2022.01.07-22.10.11:758][520]LogMainFrame: MainFrame: Module compiling took 1.278 seconds
+[2022.01.07-22.10.11:810][520]LogClass: EBombermanPlayState HotReload.
+[2022.01.07-22.10.11:822][520]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'UE4Bomberman' in 0.0002 seconds. Added 17 classes and 3 folders.
+[2022.01.07-22.10.11:827][520]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.01.07-22.10.11:933][520]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0066 seconds. Added 3618 classes and 862 folders.
+[2022.01.07-22.10.11:933][520]Display: HotReload took  1.5s.
+[2022.01.07-22.10.19:412][604]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.07-22.10.19:417][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.07-22.10.19:417][604]PIE: New page: PIE session: MainLevel (7 Jan 2022, 22:10:19)
+[2022.01.07-22.10.19:448][604]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.10.19:453][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004957s)
+[2022.01.07-22.10.19:453][604]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.10.19:453][604]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2022.01.07-22.10.19:453][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005719s)
+[2022.01.07-22.10.19:530][604]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2022.01.07-22.10.19:531][604]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.07-22.10.19:531][604]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.07-22.10.19:531][604]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.07-22.10.19:531][604]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.07-22.10.19:533][604]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.07-22.10.19:533][604]LogAudioMixer: Display: 1: FrontRight
+[2022.01.07-22.10.19:555][604]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.07-22.10.19:556][604]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.07-22.10.19:556][604]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.07-22.10.19:556][604]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.07-22.10.19:556][604]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.07-22.10.19:556][604]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.07-22.10.19:556][604]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.07-22.10.19:566][604]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.07-22.10.19:566][604]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.07-22.10.19:566][604]LogInit: FAudioDevice initialized.
+[2022.01.07-22.10.19:566][604]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainLevel'.
+[2022.01.07-22.10.19:572][604]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.10.19:574][604]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.10.19
+[2022.01.07-22.10.19:574][604]LogWorld: Bringing up level for play took: 0.002082
+[2022.01.07-22.10.19:575][604]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.01.07-22.10.19:576][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.19:576][604]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.10.19:576][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.19:576][604]PIE: Server logged in
+[2022.01.07-22.10.19:577][604]PIE: Play in editor total start time 0.161 seconds.
+[2022.01.07-22.10.22:316][924]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.10.25:810][338]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.10.28:801][697]LogTemp: Display: Speecfd.
+[2022.01.07-22.10.28:801][697]LogTemp: Display: No Drop.
+[2022.01.07-22.10.29:418][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.31:801][ 57]LogNet: Browse: /Game/Levels/MainLevel
+[2022.01.07-22.10.31:801][ 57]LogLoad: LoadMap: /Game/Levels/MainLevel
+[2022.01.07-22.10.31:801][ 57]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.10.31:802][ 57]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.10.31:802][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.10.31:851][ 57]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.07-22.10.31:855][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.01.07-22.10.31:856][ 57]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.10.31:860][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004431s)
+[2022.01.07-22.10.31:861][ 57]LogAIModule: Creating AISystem for world MainLevel
+[2022.01.07-22.10.31:861][ 57]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2022.01.07-22.10.31:861][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005139s)
+[2022.01.07-22.10.31:861][ 57]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainLevel'.
+[2022.01.07-22.10.31:861][ 57]LogLoad: Game class is 'BP_BombermanGameMode_C'
+[2022.01.07-22.10.31:863][ 57]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2022.01.07-22.10.31
+[2022.01.07-22.10.31:863][ 57]LogWorld: Bringing up level for play took: 0.001588
+[2022.01.07-22.10.31:864][ 57]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.07-22.10.31:864][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.31:864][ 57]LogTemp: Warning: gameWidget not found!
+[2022.01.07-22.10.31:865][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.31:865][ 57]LogLoad: Took 0.063391 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainLevel)
+[2022.01.07-22.10.33:412][241]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.10.36:404][600]LogTemp: Display: Speecfd.
+[2022.01.07-22.10.36:404][600]LogTemp: Display: No Drop.
+[2022.01.07-22.10.37:720][758]LogActor: Warning: MyBomb_C /Game/Levels/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.MyBomb_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.01.07-22.10.40:712][117]LogTemp: Display: Speecfd.
+[2022.01.07-22.10.40:712][117]LogTemp: Display: No Drop.
+[2022.01.07-22.10.40:712][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.40:712][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.40:713][117]LogOutputDevice: Warning: 
+
+Script Stack (1 frames):
+MyBomb_C.ExecuteUbergraph_MyBomb
+
+[2022.01.07-22.10.40:827][117]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.115 s
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: === Handled ensure: ===
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: 
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 556]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: 
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: Stack: 
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe18629 UE4Editor-UE4Bomberman-7913.dll!<lambda_141665ca91f479c33d12e161297f781b>::operator()() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:556]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe08ae1 UE4Editor-UE4Bomberman-7913.dll!TMulticastScriptDelegate<FWeakObjectPtr>::Add() [C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\ScriptDelegates.h:327]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe08d72 UE4Editor-UE4Bomberman-7913.dll!UEndGameWidget::NativeConstruct() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\EndGameWidget.cpp:15]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdee0a238a UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdedfc7b55 UE4Editor-UMG.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe07281 UE4Editor-UE4Bomberman-7913.dll!ABombermanGameMode::HandleNewState() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\BombermanGameMode.cpp:109]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe04baa UE4Editor-UE4Bomberman-7913.dll!ABomb::OnOverlapDestroy() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:69]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe049e7 UE4Editor-UE4Bomberman-7913.dll!ABomb::CheckForOverlappingActors() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:88]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffe4fe04a2e UE4Editor-UE4Bomberman-7913.dll!ABomb::ExplodeBomb() [D:\Unreal Projects\BomberMan\UE4Bomberman\Source\UE4Bomberman\Private\Bomb.cpp:105]
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdefb98176 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb22fd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb1704 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdef922604 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffdefbb0e63 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffddfd2c435 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffde0649988 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:827][117]LogOutputDevice: Error: [Callstack] 0x00007ffde0628f71 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffddfd43168 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffddfd432ea UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffddfd0f78d UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffde0ef297e UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffde0efb56f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaecdc UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffdeffaf0ce UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffdeffc08fd UE4Editor-Core.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffde0f18464 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffde0f1edaa UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffde063ad8f UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffde06455f7 UE4Editor-Engine.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffdde569423 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffddee850e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ff64f9f9bc2 UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1117c UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ff64fa1125a UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ff64fa252bd UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ff64fa27fea UE4Editor.exe!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffe89917034 KERNEL32.DLL!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: [Callstack] 0x00007ffe8b7a2651 ntdll.dll!UnknownFunction []
+[2022.01.07-22.10.40:828][117]LogOutputDevice: Error: 
+[2022.01.07-22.10.40:830][117]LogStats:             FDebug::EnsureFailed -  0.117 s
+[2022.01.07-22.10.44:867][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.44:868][602]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2022.01.07-22.10.44:908][602]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2022.01.07-22.10.44:908][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.10.44:914][602]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.07-22.10.44:928][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.07-22.10.44:952][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.07-22.10.44:953][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.10.44:953][602]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.07-22.10.44:971][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.01.07-22.10.45:023][603]LogPlayLevel: Display: Destroying online subsystem :Context_24
