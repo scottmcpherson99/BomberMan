@@ -10,6 +10,15 @@
  * 
  */
 
+UENUM(BlueprintType)
+enum class EBombermanPlayState : uint8
+{
+	EPlaying UMETA(DisplayName= "playing"),
+	EGameOver UMETA(DisplayName = "game over"),
+	EMainMenu UMETA(DisplayName = "main menu"),
+	EUnknown UMETA(DisplayName = "Unknown")
+};
+
 UCLASS()
 class UE4BOMBERMAN_API ABombermanGameMode : public AGameModeBase
 {
@@ -21,6 +30,11 @@ public:
 
 	virtual void BeginPlay() override;
 
+	//returns the current playing state
+	UFUNCTION(BlueprintPure, Category = "Game settings")
+		EBombermanPlayState GetCurrentState() const;
+
+	void SetCurrentState(EBombermanPlayState newState);
 
 protected:
 
@@ -39,8 +53,12 @@ protected:
 	FTimerHandle gameTimer;
 
 	void DecreaseTimer();
-	//the instance of the hud
-	//UPROPERTY()
-	//class UUserWidget* CurrentWidget;
+	
 
+private:
+	//keeps track of the current play state
+	EBombermanPlayState currentState;
+
+	//handle any function calls that rely upon changing the playing state
+	void HandleNewState(EBombermanPlayState newState);
 };

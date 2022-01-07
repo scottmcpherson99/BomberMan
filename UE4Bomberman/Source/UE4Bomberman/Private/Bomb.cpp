@@ -6,6 +6,7 @@
 #include <Components/BoxComponent.h>
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "BombermanGameMode.h"
 
 
 // Sets default values
@@ -44,18 +45,23 @@ void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 
 	if ((OtherActor != nullptr) && (OtherActor != this))
 	{
+		//check to see if the destroyed actor is a destructable wall
 		if (OtherActor->IsA(DestructrableWall_))
 		{
 			ADestructableWall* const destructableWall = Cast<ADestructableWall>(OtherActor);
 
+			//if the actor is a destructable wall, destroy the wall
 			if (destructableWall)
 			{
 				destructableWall->DestroyWall();
 			}
 		}
+
+		//if the actor is a player, destroy the player
 		else if (OtherActor->IsA(PlayerCharacter_))
 		{
-			UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+			ABombermanGameMode* const gameMode = (ABombermanGameMode*)GetWorld()->GetAuthGameMode();
+			gameMode->SetCurrentState(EBombermanPlayState::EGameOver);
 		}
 	}
 }
@@ -64,6 +70,7 @@ void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 void ABomb::CheckForOverlappingActors()
 {
 	
+	//check for overllaping actors on the bombs explosion
 	TArray<AActor*> OverlappingActors;
 	CollisionBoxX->GetOverlappingActors(OverlappingActors);
 	for (int i = 0; i < OverlappingActors.Num(); i++)

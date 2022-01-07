@@ -24,6 +24,8 @@ void ABombermanGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
+	SetCurrentState(EBombermanPlayState::EPlaying);
+
 	//create the widget
 	if (IsValid(HUDWidgetClass))
 	{
@@ -41,16 +43,7 @@ void ABombermanGameMode::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("gameWidget not found!"));
 	}
 	
-	timeRemaining = gameTotalTime;
-
-	//check for valid world
-	UWorld* const world = GetWorld();
-
-	if (world)
-	{
-		//decrease the timer by 1 every second
-		world->GetTimerManager().SetTimer(gameTimer, this, &ABombermanGameMode::DecreaseTimer, 1.0f, true);
-	}
+	
 }
 
 void ABombermanGameMode::DecreaseTimer()
@@ -62,6 +55,48 @@ void ABombermanGameMode::DecreaseTimer()
 	//if the timer has reached 0, exit the game
 	if (timeRemaining <= 0)
 	{
+		SetCurrentState(EBombermanPlayState::EGameOver);
+	}
+}
+
+EBombermanPlayState ABombermanGameMode::GetCurrentState() const
+{
+	return currentState;
+}
+
+void ABombermanGameMode::SetCurrentState(EBombermanPlayState newState_)
+{
+	//set the current state
+	currentState = newState_;
+
+	HandleNewState(currentState);
+}
+
+void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
+{
+	ACharacter* MyCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
+	APlayerController* PlayerController = UGameplayStatics::GetPlayerController(this, 0);
+	//check for valid world
+	UWorld* const world = GetWorld();
+
+	switch (newState)
+	{
+		//if the game is playing
+	case EBombermanPlayState::EPlaying:
+
+		timeRemaining = gameTotalTime;
+
+		if (world)
+		{
+			//decrease the timer by 1 every second
+			world->GetTimerManager().SetTimer(gameTimer, this, &ABombermanGameMode::DecreaseTimer, 1.0f, true);
+		}
+
+		break;
+
+		//if the game has finished
+	case EBombermanPlayState::EGameOver:
 		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		break;
 	}
 }
