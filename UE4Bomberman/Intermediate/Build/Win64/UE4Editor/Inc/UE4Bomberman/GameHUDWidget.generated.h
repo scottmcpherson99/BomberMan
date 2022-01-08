@@ -63,6 +63,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGameHUDWidget); \
 #define UE4Bomberman_Source_UE4Bomberman_Public_GameHUDWidget_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentPowerup() { return STRUCT_OFFSET(UGameHUDWidget, CurrentPowerup); } \
 	FORCEINLINE static uint32 __PPO__BombsRemaining() { return STRUCT_OFFSET(UGameHUDWidget, BombsRemaining); } \
+	FORCEINLINE static uint32 __PPO__CurrentPowerup2() { return STRUCT_OFFSET(UGameHUDWidget, CurrentPowerup2); } \
+	FORCEINLINE static uint32 __PPO__BombsRemaining2() { return STRUCT_OFFSET(UGameHUDWidget, BombsRemaining2); } \
 	FORCEINLINE static uint32 __PPO__TimeRemaining() { return STRUCT_OFFSET(UGameHUDWidget, TimeRemaining); }
 
 

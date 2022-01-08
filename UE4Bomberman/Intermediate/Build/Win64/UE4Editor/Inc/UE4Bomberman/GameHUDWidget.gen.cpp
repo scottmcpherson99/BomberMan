@@ -41,6 +41,14 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BombsRemaining;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentPowerup2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentPowerup2;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BombsRemaining2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BombsRemaining2;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TimeRemaining_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TimeRemaining;
@@ -63,8 +71,10 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "GameHUDWidget" },
+		{ "Comment", "//player ones current powerup\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/GameHUDWidget.h" },
+		{ "ToolTip", "player ones current powerup" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup = { "CurrentPowerup", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, CurrentPowerup), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup_MetaData)) };
@@ -72,23 +82,51 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "GameHUDWidget" },
+		{ "Comment", "//player ones bombs remaining\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/GameHUDWidget.h" },
+		{ "ToolTip", "player ones bombs remaining" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining = { "BombsRemaining", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, BombsRemaining), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup2_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "GameHUDWidget" },
+		{ "Comment", "//player twos bombs remaining\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/GameHUDWidget.h" },
+		{ "ToolTip", "player twos bombs remaining" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup2 = { "CurrentPowerup2", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, CurrentPowerup2), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup2_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining2_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "Category", "GameHUDWidget" },
+		{ "Comment", "//player twos bombs remaining\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/GameHUDWidget.h" },
+		{ "ToolTip", "player twos bombs remaining" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining2 = { "BombsRemaining2", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, BombsRemaining2), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining2_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining_MetaData[] = {
 		{ "BindWidget", "" },
 		{ "Category", "GameHUDWidget" },
+		{ "Comment", "//game time remaining\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/GameHUDWidget.h" },
+		{ "ToolTip", "game time remaining" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining = { "TimeRemaining", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUDWidget, TimeRemaining), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGameHUDWidget_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_CurrentPowerup2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_BombsRemaining2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUDWidget_Statics::NewProp_TimeRemaining,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameHUDWidget_Statics::StaticCppClassTypeInfo = {
@@ -118,7 +156,7 @@ void EmptyLinkFunctionForGeneratedCodeGameHUDWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameHUDWidget, 1208500173);
+	IMPLEMENT_CLASS(UGameHUDWidget, 2218309875);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<UGameHUDWidget>()
 	{
 		return UGameHUDWidget::StaticClass();

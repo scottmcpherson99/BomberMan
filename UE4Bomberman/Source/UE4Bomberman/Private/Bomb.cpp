@@ -74,6 +74,15 @@ void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 			gameMode->SetWinnerText("Player 2");
 			gameMode->SetCurrentState(EBombermanPlayState::EGameOver);
 		}
+
+		//if the actor is a player, destroy the player
+		else if (OtherActor->IsA(PlayerCharacter_2))
+		{
+			ABombermanGameMode* const gameMode = (ABombermanGameMode*)GetWorld()->GetAuthGameMode();
+
+			gameMode->SetWinnerText("Player 1");
+			gameMode->SetCurrentState(EBombermanPlayState::EGameOver);
+		}
 	}
 }
 

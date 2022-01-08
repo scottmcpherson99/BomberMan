@@ -15,12 +15,23 @@ class UE4BOMBERMAN_API UGameHUDWidget : public UUserWidget
 	GENERATED_BODY()
 	
 protected:
+	//player ones current powerup
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* CurrentPowerup;
 
+	//player ones bombs remaining
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* BombsRemaining;
 
+	//player twos bombs remaining
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+		class UTextBlock* CurrentPowerup2;
+
+	//player twos bombs remaining
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+		class UTextBlock* BombsRemaining2;
+
+	//game time remaining
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 		class UTextBlock* TimeRemaining;
 

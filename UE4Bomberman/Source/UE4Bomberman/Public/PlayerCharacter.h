@@ -30,10 +30,13 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class USphereComponent* CollectionSphere;
 
+	UFUNCTION(BlueprintCallable, Category = "Movement")
 	void MoveForward(float value);
 
+	UFUNCTION(BlueprintCallable, Category = "Movement")
 	void MoveRight(float value);
 
+	UFUNCTION(BlueprintCallable, Category = "Spawn Bomb")
 	void SpawnBomb();
 
 	UPROPERTY(EditAnywhere, Category = "Type of Bomb to spawn")

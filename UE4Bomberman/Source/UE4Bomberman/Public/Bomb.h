@@ -60,4 +60,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player 1")
 		TSubclassOf<class AActor> PlayerCharacter_;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player 2")
+		TSubclassOf<class AActor> PlayerCharacter_2;
 };

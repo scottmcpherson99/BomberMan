@@ -20,7 +20,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execSetMaxBombs); \
 	DECLARE_FUNCTION(execGetBombs); \
 	DECLARE_FUNCTION(execSetBombs); \
-	DECLARE_FUNCTION(execCollectPickups);
+	DECLARE_FUNCTION(execCollectPickups); \
+	DECLARE_FUNCTION(execSpawnBomb); \
+	DECLARE_FUNCTION(execMoveRight); \
+	DECLARE_FUNCTION(execMoveForward);
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
@@ -29,7 +32,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execSetMaxBombs); \
 	DECLARE_FUNCTION(execGetBombs); \
 	DECLARE_FUNCTION(execSetBombs); \
-	DECLARE_FUNCTION(execCollectPickups);
+	DECLARE_FUNCTION(execCollectPickups); \
+	DECLARE_FUNCTION(execSpawnBomb); \
+	DECLARE_FUNCTION(execMoveRight); \
+	DECLARE_FUNCTION(execMoveForward);
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
