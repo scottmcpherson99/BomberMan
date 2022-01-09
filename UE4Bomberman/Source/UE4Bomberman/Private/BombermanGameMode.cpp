@@ -39,6 +39,9 @@ void ABombermanGameMode::BeginPlay()
 		gameOverWidget = Cast<UEndGameWidget>(CreateWidget(GetWorld(), GameOverWidgetClass));
 	}
 	
+	PlayBackgroundMusic();
+	GetWorld()->GetTimerManager().SetTimer(backgroundTimer, this, &ABombermanGameMode::PlayBackgroundMusic, backgroundSoundBase->GetDuration(), true);
+
 	winnertext = "Draw";
 	SetUpWidget();
 }
@@ -86,8 +89,9 @@ void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
 		if (world)
 		{
 			//decrease the timer by 1 every second
-			world->GetTimerManager().SetTimer(gameTimer, this, &ABombermanGameMode::DecreaseTimer, 1.0f, true);
+			world->GetTimerManager().SetTimer(gameTimer, this, &ABombermanGameMode::DecreaseTimer, 1.0f, true);		
 		}
+
 
 		break;
 
@@ -102,6 +106,7 @@ void ABombermanGameMode::HandleNewState(EBombermanPlayState newState)
 			PC->bEnableClickEvents = true;
 			PC->bEnableMouseOverEvents = true;
 		}
+		
 		break;
 	}
 
@@ -158,4 +163,9 @@ void ABombermanGameMode::SetWinnerText(FString winner_)
 {
 	winnertext = winner_;
 	
+}
+
+void ABombermanGameMode::PlayBackgroundMusic()
+{
+	UGameplayStatics::PlaySound2D(GetWorld(), backgroundSoundBase);
 }

@@ -72,7 +72,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABombermanGameMode); \
 	FORCEINLINE static uint32 __PPO__GameOverWidgetClass() { return STRUCT_OFFSET(ABombermanGameMode, GameOverWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__gameWidget() { return STRUCT_OFFSET(ABombermanGameMode, gameWidget); } \
 	FORCEINLINE static uint32 __PPO__gameOverWidget() { return STRUCT_OFFSET(ABombermanGameMode, gameOverWidget); } \
-	FORCEINLINE static uint32 __PPO__gameTotalTime() { return STRUCT_OFFSET(ABombermanGameMode, gameTotalTime); }
+	FORCEINLINE static uint32 __PPO__gameTotalTime() { return STRUCT_OFFSET(ABombermanGameMode, gameTotalTime); } \
+	FORCEINLINE static uint32 __PPO__backgroundSoundBase() { return STRUCT_OFFSET(ABombermanGameMode, backgroundSoundBase); }
 
 
 #define UE4Bomberman_Source_UE4Bomberman_Public_BombermanGameMode_h_22_PROLOG

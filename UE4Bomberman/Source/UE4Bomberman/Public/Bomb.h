@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundCue.h"
 #include "Bomb.generated.h"
 
 class UStaticMesh;
@@ -41,6 +43,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision Box")
 		UBoxComponent* CollisionBoxY;
 
+		
 	bool isRemoteControlled = false;
 
 	void OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherActor);
@@ -48,9 +51,15 @@ protected:
 	void CheckForOverlappingActors();
 
 	FTimerHandle bombTimer;
+	FTimerHandle explosionTimer;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+	USoundBase* bombSoundBase;
 private:
-	
+
+	void DestroyActor();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -63,4 +72,5 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player 2")
 		TSubclassOf<class AActor> PlayerCharacter_2;
+
 };

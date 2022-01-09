@@ -1,18 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\BomberMan).
-  Parsing headers for UE4BombermanEditor
-    Running UnrealHeaderTool "D:\Unreal Projects\BomberMan\UE4Bomberman\UE4Bomberman.uproject" "D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4BombermanEditor\Development\UE4BombermanEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\scott\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for UE4BombermanEditor in 2.7558757 seconds
   Building UE4BombermanEditor...
   Using Visual Studio 2019 14.30.30706 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 7 actions with 16 processes...
-    [1/7] UE4Bomberman.init.gen.cpp
-    [2/7] GameHUDWidget.cpp
-    [3/7] GameHUDWidget.gen.cpp
-    [4/7] BombermanGameMode.cpp
-    [5/7] UE4Editor-UE4Bomberman-0156.lib
-       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0156.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0156.exp
-    [6/7] UE4Editor-UE4Bomberman-0156.dll
-       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0156.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0156.suppressed.exp
-    [7/7] UE4BombermanEditor.target
-  Total time in Parallel executor: 72.92 seconds
-  Total execution time: 76.15 seconds
+  Building 4 actions with 16 processes...
+    [1/4] BombermanGameMode.cpp
+    [2/4] UE4Editor-UE4Bomberman-0200.lib
+       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0200.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0200.exp
+    [3/4] UE4Editor-UE4Bomberman-0200.dll
+       Creating library D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0200.suppressed.lib and object D:\Unreal Projects\BomberMan\UE4Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Bomberman\UE4Editor-UE4Bomberman-0200.suppressed.exp
+    [4/4] UE4BombermanEditor.target
+  Total time in Parallel executor: 3.35 seconds
+  Total execution time: 3.76 seconds

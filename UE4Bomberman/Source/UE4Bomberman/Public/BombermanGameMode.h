@@ -61,10 +61,12 @@ protected:
 	float timeRemaining;
 
 	FTimerHandle gameTimer;
+	FTimerHandle backgroundTimer;
 
 	void DecreaseTimer();
 	
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound")
+		USoundBase* backgroundSoundBase;
 private:
 	//keeps track of the current play state
 	EBombermanPlayState currentState;
@@ -73,6 +75,8 @@ private:
 	void HandleNewState(EBombermanPlayState newState);
 
 	void SetUpWidget();
+
+	void PlayBackgroundMusic();
 
 	//the text that will be displayed to indicate the winner
 	FString winnertext;

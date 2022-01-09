@@ -7,6 +7,7 @@
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "BombermanGameMode.h"
+#include "UObject/ConstructorHelpers.h"
 
 
 // Sets default values
@@ -30,6 +31,9 @@ ABomb::ABomb()
 
 	CollisionBoxY = CreateDefaultSubobject<UBoxComponent>(TEXT("Collision Box Y"));
 	CollisionBoxY->SetupAttachment(RootComp);
+
+	static ConstructorHelpers::FObjectFinder<USoundCue> bombCueObject(TEXT("SoundCue'/Game/Sound/BombExplosionSoundCue.BombExplosionSoundCue'"));
+
 }
 
 // Called when the game starts or when spawned
@@ -47,6 +51,8 @@ void ABomb::BeginPlay()
 		//decrease the timer by 1 every second
 		world->GetTimerManager().SetTimer(bombTimer, this, &ABomb::ExplodeBomb, 3.0f, false);
 	}
+
+	
 }
 
 void ABomb::OnOverlapDestroy(UPrimitiveComponent* OverlappedComp, AActor* OtherActor)
@@ -120,5 +126,15 @@ void ABomb::ExplodeBomb()
 {	
 	CheckForOverlappingActors();
 
+	
+	MeshComp->SetVisibility(false, true);
+
+	GetWorld()->GetTimerManager().SetTimer(explosionTimer, this, &ABomb::DestroyActor, bombSoundBase->GetDuration(), false);
+	
+	UGameplayStatics::PlaySound2D(GetWorld(), bombSoundBase);
+}
+
+void ABomb::DestroyActor()
+{
 	Destroy();
 }

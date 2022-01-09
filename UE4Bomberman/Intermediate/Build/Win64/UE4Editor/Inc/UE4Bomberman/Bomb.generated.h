@@ -13,18 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UE4BOMBERMAN_Bomb_generated_h
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_SPARSE_DATA
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_RPC_WRAPPERS \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_SPARSE_DATA
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execExplodeBomb);
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execExplodeBomb);
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_INCLASS_NO_PURE_DECLS \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABomb(); \
 	friend struct Z_Construct_UClass_ABomb_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ABomb)
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_INCLASS \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesABomb(); \
 	friend struct Z_Construct_UClass_ABomb_Statics; \
@@ -42,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(ABomb)
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_STANDARD_CONSTRUCTORS \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABomb(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABomb) \
@@ -55,7 +55,7 @@ private: \
 public:
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_ENHANCED_CONSTRUCTORS \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABomb(ABomb&&); \
@@ -66,34 +66,35 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABomb); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABomb)
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_PRIVATE_PROPERTY_OFFSET \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__RootComp() { return STRUCT_OFFSET(ABomb, RootComp); } \
 	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(ABomb, MeshComp); } \
 	FORCEINLINE static uint32 __PPO__CollisionBoxX() { return STRUCT_OFFSET(ABomb, CollisionBoxX); } \
-	FORCEINLINE static uint32 __PPO__CollisionBoxY() { return STRUCT_OFFSET(ABomb, CollisionBoxY); }
+	FORCEINLINE static uint32 __PPO__CollisionBoxY() { return STRUCT_OFFSET(ABomb, CollisionBoxY); } \
+	FORCEINLINE static uint32 __PPO__bombSoundBase() { return STRUCT_OFFSET(ABomb, bombSoundBase); }
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_13_PROLOG
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_GENERATED_BODY_LEGACY \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_15_PROLOG
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_PRIVATE_PROPERTY_OFFSET \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_SPARSE_DATA \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_RPC_WRAPPERS \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_INCLASS \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_STANDARD_CONSTRUCTORS \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_PRIVATE_PROPERTY_OFFSET \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_SPARSE_DATA \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_RPC_WRAPPERS \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_INCLASS \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_GENERATED_BODY \
+#define UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_PRIVATE_PROPERTY_OFFSET \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_SPARSE_DATA \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_INCLASS_NO_PURE_DECLS \
-	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_16_ENHANCED_CONSTRUCTORS \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_PRIVATE_PROPERTY_OFFSET \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_SPARSE_DATA \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_INCLASS_NO_PURE_DECLS \
+	UE4Bomberman_Source_UE4Bomberman_Public_Bomb_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

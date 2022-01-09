@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 	UPackage* Z_Construct_UPackage__Script_UE4Bomberman();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	UE4BOMBERMAN_API UClass* Z_Construct_UClass_ADestructableWall_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
@@ -88,6 +89,10 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollisionBoxY;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bombSoundBase_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bombSoundBase;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DestructrableWall__MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DestructrableWall_;
@@ -155,6 +160,13 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxY = { "CollisionBoxY", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABomb, CollisionBoxY), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxY_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABomb_Statics::NewProp_bombSoundBase_MetaData[] = {
+		{ "Category", "Sound" },
+		{ "ModuleRelativePath", "Public/Bomb.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABomb_Statics::NewProp_bombSoundBase = { "bombSoundBase", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABomb, bombSoundBase), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABomb_Statics::NewProp_bombSoundBase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABomb_Statics::NewProp_bombSoundBase_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall__MetaData[] = {
 		{ "Category", "Wall" },
 		{ "ModuleRelativePath", "Public/Bomb.h" },
@@ -180,6 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_MeshComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxX,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_CollisionBoxY,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_bombSoundBase,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_DestructrableWall_,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter_,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABomb_Statics::NewProp_PlayerCharacter_2,
@@ -211,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeBomb() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABomb, 1446815949);
+	IMPLEMENT_CLASS(ABomb, 3385494694);
 	template<> UE4BOMBERMAN_API UClass* StaticClass<ABomb>()
 	{
 		return ABomb::StaticClass();
